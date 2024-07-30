@@ -1,0 +1,18 @@
+{
+  "name": "@wolfcola/request",
+  "version": "0.0.0",
+  "description": "a simple effect request package",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "exports": "./dist/src/index.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "attw": "attw --pack .",
+    "build": "tsc -p ./tsconfig.json",
+    "test": "vitest",
+    "tsc": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "ryanbas",
+  "license": "MIT"
+}

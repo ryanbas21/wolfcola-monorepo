@@ -1,0 +1,34 @@
+{
+  "name": "@wolfcola",
+  "description": "a monorepo by me",
+  "scripts": {
+    "changeset": "changeset",
+    "release": "pnpm build && changeset publish",
+    "build": "pnpm run --filter ./packages/* build"
+  },
+  "author": "ryan bas",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.16.1",
+    "yarn": "forbidden use pnpm",
+    "npm": "forbidden use pnpm",
+    "pnpm": ">= 9.6.0"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.15.3",
+    "@biomejs/biome": "1.8.3",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.7",
+    "@effect/vitest": "^0.6.12",
+    "@types/node": "^22.0.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vitest": "^2.0.4"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.60.2",
+    "@effect/platform-browser": "^0.39.2",
+    "effect": "^3.5.8"
+  }
+}
