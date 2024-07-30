@@ -1,0 +1,14 @@
+{
+  "name": "@wolfcola/typescript-config",
+  "version": "0.0.0",
+  "description": "a shareable ts config",
+  "exports": {
+    "./tsconfig": "./src/tsconfig.json",
+    "./tsconfig.spec": "./src/tsconfig.spec.json"
+  },
+  "author": "ryan bas",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "catalog:typescript"
+  }
+}
