@@ -1,0 +1,1 @@
+{"version":3,"file":"BrowserStream.js","names":["internal","fromEventListenerWindow","fromEventListenerDocument"],"sources":["../../src/BrowserStream.ts"],"sourcesContent":[null],"mappings":"AAAA;;;AAKA,OAAO,KAAKA,QAAQ,MAAM,sBAAsB;AAEhD;;;;AAIA,OAAO,MAAMC,uBAAuB,GAGID,QAAQ,CAACC,uBAAuB;AAExE;;;;AAIA,OAAO,MAAMC,yBAAyB,GAGIF,QAAQ,CAACE,yBAAyB","ignoreList":[]}

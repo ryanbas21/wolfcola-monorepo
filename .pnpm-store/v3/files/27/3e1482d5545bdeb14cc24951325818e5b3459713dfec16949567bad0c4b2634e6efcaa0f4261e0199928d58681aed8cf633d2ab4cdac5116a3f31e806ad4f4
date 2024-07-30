@@ -1,0 +1,34 @@
+/**
+ * @since 1.0.0
+ */
+import type * as HttpClient from "@effect/platform/HttpClient";
+import type { Effect } from "effect/Effect";
+import type * as FiberRef from "effect/FiberRef";
+import type { LazyArg } from "effect/Function";
+import type * as Layer from "effect/Layer";
+/**
+ * @since 1.0.0
+ * @category clients
+ */
+export declare const xmlHttpRequest: HttpClient.HttpClient.Default;
+/**
+ * @since 1.0.0
+ * @category layers
+ */
+export declare const layerXMLHttpRequest: Layer.Layer<HttpClient.HttpClient.Default, never, never>;
+/**
+ * @since 1.0.0
+ * @category fiber refs
+ */
+export declare const currentXMLHttpRequest: FiberRef.FiberRef<LazyArg<XMLHttpRequest>>;
+/**
+ * @since 1.0.0
+ * @category fiber refs
+ */
+export declare const currentXHRResponseType: FiberRef.FiberRef<"text" | "arraybuffer">;
+/**
+ * @since 1.0.0
+ * @category fiber refs
+ */
+export declare const withXHRArrayBuffer: <A, E, R>(effect: Effect<A, E, R>) => Effect<A, E, R>;
+//# sourceMappingURL=BrowserHttpClient.d.ts.map
