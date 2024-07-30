@@ -21,5 +21,12 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
+
+    - name: Lint packages
+      run: pnpm lint
+
+    - name: Build packages
+      run: pnpm build
+
     - name: Unit Test Packages
-      run: pnpm run --filter ./packages/* test
+      run: pnpm test
