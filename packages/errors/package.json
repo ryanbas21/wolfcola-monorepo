@@ -1,12 +1,14 @@
 {
   "name": "@wolfcola/errors",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",
   "exports": "./dist/src/index.js",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "attw": "attw --pack .",
     "dev": "vite",

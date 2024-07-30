@@ -1,12 +1,14 @@
 {
   "name": "@wolfcola/request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a simple effect request package",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "exports": "./dist/index.js",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "attw": "attw --pack .",
     "build": "tsc -p ./tsconfig.json",
@@ -26,7 +28,6 @@
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
     "vitest": "catalog:vite"
-
   },
   "dependencies": {
     "@wolfcola/errors": "workspace:*",
