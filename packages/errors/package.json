@@ -26,7 +26,8 @@
     "vite-plugin-dts": "catalog:vite",
     "vite": "catalog:vite",
     "vitest": "catalog:vite",
-    "@wolfcola/biome-config": "workspace:*"
+    "@wolfcola/biome-config": "workspace:*",
+    "@wolfcola/typescript-config": "workspace:*"
   },
   "dependencies": {}
 }

@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "../../tsconfig.base.json"
-  ],
-  "include": [
-    "src"
-  ],
-  "exclude": ["./src/*.test.ts", "./src/*.spec.ts"],
+  "extends": ["@wolfcola/typescript-config/tsconfig"],
   "compilerOptions": {
     "outDir": "./dist",
     "module": "Node16",

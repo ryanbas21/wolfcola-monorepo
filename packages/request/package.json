@@ -22,9 +22,10 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "catalog:attw",
     "@biomejs/biome": "catalog:biome",
-    "@wolfcola/biome-config": "workspace:*",
     "@effect/vitest": "catalog:effect",
     "@types/node": "catalog:typescript",
+    "@wolfcola/biome-config": "workspace:*",
+    "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
