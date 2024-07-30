@@ -1,6 +1,0 @@
-{
-  "main": "../dist/cjs/BrowserHttpClient.js",
-  "module": "../dist/esm/BrowserHttpClient.js",
-  "types": "../dist/dts/BrowserHttpClient.d.ts",
-  "sideEffects": []
-}

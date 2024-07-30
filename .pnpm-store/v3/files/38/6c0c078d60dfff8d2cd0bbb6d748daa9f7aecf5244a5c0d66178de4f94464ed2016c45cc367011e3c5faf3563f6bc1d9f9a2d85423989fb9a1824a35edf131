@@ -1,1 +1,0 @@
-{"version":3,"file":"Clipboard.js","names":["internal","make","Clipboard","tag","layer"],"sources":["../../src/Clipboard.ts"],"sourcesContent":[null],"mappings":"AAAA;;;AAQA,OAAO,KAAKA,QAAQ,MAAM,yBAAyB;AAenD;;;;AAIA,OAAO,MAAMC,IAAI,GAEAD,QAAQ,CAACC,IAAI;AAE9B;;;;AAIA,OAAO,MAAMC,SAAS,GAA8BF,QAAQ,CAACG,GAAG;AAEhE;;;;;;AAMA,OAAO,MAAMC,KAAK,GAA2BJ,QAAQ,CAACI,KAAK","ignoreList":[]}
