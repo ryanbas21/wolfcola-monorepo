@@ -1,0 +1,65 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.tag = exports.make = exports.layer = void 0;
+var PlatformError = _interopRequireWildcard(require("@effect/platform/Error"));
+var _Context = require("effect/Context");
+var Effect = _interopRequireWildcard(require("effect/Effect"));
+var Layer = _interopRequireWildcard(require("effect/Layer"));
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+/** @internal */
+const tag = exports.tag = /*#__PURE__*/(0, _Context.GenericTag)("@effect/platform-browser/Clipboard");
+/** @internal */
+const make = impl => tag.of({
+  ...impl,
+  clear: impl.writeString(""),
+  writeBlob: blob => impl.write([new ClipboardItem({
+    [blob.type]: blob
+  })])
+});
+/** @internal */
+exports.make = make;
+const clipboardError = props => PlatformError.SystemError({
+  reason: "PermissionDenied",
+  module: "Clipboard",
+  ...props
+});
+/** @internal */
+const layer = exports.layer = /*#__PURE__*/Layer.succeed(tag, /*#__PURE__*/make({
+  read: /*#__PURE__*/Effect.tryPromise({
+    try: () => navigator.clipboard.read(),
+    catch: () => clipboardError({
+      "message": "Unable to read from clipboard",
+      "method": "read",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  write: s => Effect.tryPromise({
+    try: () => navigator.clipboard.write(s),
+    catch: () => clipboardError({
+      "message": "Unable to write to clipboard",
+      "method": "write",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  readString: /*#__PURE__*/Effect.tryPromise({
+    try: () => navigator.clipboard.readText(),
+    catch: () => clipboardError({
+      "message": "Unable to read a string from clipboard",
+      "method": "readString",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  writeString: text => Effect.tryPromise({
+    try: () => navigator.clipboard.writeText(text),
+    catch: () => clipboardError({
+      "message": "Unable to write a string to clipboard",
+      "method": "writeString",
+      "pathOrDescriptor": "layer"
+    })
+  })
+}));
+//# sourceMappingURL=clipboard.js.map

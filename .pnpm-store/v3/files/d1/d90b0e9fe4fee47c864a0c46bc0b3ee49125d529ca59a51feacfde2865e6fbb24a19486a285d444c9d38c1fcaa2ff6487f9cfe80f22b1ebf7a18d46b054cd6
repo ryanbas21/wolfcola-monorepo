@@ -1,0 +1,6 @@
+{
+  "main": "../dist/cjs/BrowserWorkerRunner.js",
+  "module": "../dist/esm/BrowserWorkerRunner.js",
+  "types": "../dist/dts/BrowserWorkerRunner.d.ts",
+  "sideEffects": []
+}

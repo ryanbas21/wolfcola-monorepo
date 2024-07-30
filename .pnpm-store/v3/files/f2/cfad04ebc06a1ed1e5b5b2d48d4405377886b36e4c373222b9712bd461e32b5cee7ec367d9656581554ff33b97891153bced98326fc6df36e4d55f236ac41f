@@ -1,0 +1,56 @@
+import * as PlatformError from "@effect/platform/Error";
+import { GenericTag } from "effect/Context";
+import * as Effect from "effect/Effect";
+import * as Layer from "effect/Layer";
+/** @internal */
+export const tag = /*#__PURE__*/GenericTag("@effect/platform-browser/Clipboard");
+/** @internal */
+export const make = impl => tag.of({
+  ...impl,
+  clear: impl.writeString(""),
+  writeBlob: blob => impl.write([new ClipboardItem({
+    [blob.type]: blob
+  })])
+});
+/** @internal */
+const clipboardError = props => PlatformError.SystemError({
+  reason: "PermissionDenied",
+  module: "Clipboard",
+  ...props
+});
+/** @internal */
+export const layer = /*#__PURE__*/Layer.succeed(tag, /*#__PURE__*/make({
+  read: /*#__PURE__*/Effect.tryPromise({
+    try: () => navigator.clipboard.read(),
+    catch: () => clipboardError({
+      "message": "Unable to read from clipboard",
+      "method": "read",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  write: s => Effect.tryPromise({
+    try: () => navigator.clipboard.write(s),
+    catch: () => clipboardError({
+      "message": "Unable to write to clipboard",
+      "method": "write",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  readString: /*#__PURE__*/Effect.tryPromise({
+    try: () => navigator.clipboard.readText(),
+    catch: () => clipboardError({
+      "message": "Unable to read a string from clipboard",
+      "method": "readString",
+      "pathOrDescriptor": "layer"
+    })
+  }),
+  writeString: text => Effect.tryPromise({
+    try: () => navigator.clipboard.writeText(text),
+    catch: () => clipboardError({
+      "message": "Unable to write a string to clipboard",
+      "method": "writeString",
+      "pathOrDescriptor": "layer"
+    })
+  })
+}));
+//# sourceMappingURL=clipboard.js.map
