@@ -1,0 +1,27 @@
+{
+  "name": "@wolfcola/errors",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "exports": "./dist/src/index.js",
+  "files": ["dist/*"],
+  "scripts": {
+    "attw": "attw --pack .",
+    "dev": "vite",
+    "build": "tsc -p ./tsconfig.json",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "catalog:attw",
+    "@effect/vitest": "catalog:effect",
+    "@types/node": "^22.0.0",
+    "typescript": "catalog:typescript",
+    "vite-plugin-dts": "catalog:vite",
+    "vite": "catalog:vite",
+    "vitest": "catalog:vite"
+  },
+  "dependencies": {}
+}

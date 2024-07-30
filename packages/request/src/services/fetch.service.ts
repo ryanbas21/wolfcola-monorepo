@@ -1,9 +1,7 @@
 import * as Effect from 'effect/Effect';
 import * as Context from 'effect/Context';
 import * as Layer from 'effect/Layer';
-
-import { ParsingResponseJsonError } from '../errors/parsingerror';
-import { FetchError } from '../errors/fetcherror';
+import { FetchError, ParsingResponseJsonError  } from '@wolfcola/errors';
 
 class Fetch extends Context.Tag('@wolfcola/Fetch')<
   Fetch,
