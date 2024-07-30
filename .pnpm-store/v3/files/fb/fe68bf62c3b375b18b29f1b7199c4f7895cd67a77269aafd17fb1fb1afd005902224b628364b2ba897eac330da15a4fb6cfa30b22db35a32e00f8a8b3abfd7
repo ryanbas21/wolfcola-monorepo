@@ -1,6 +1,0 @@
-{
-  "main": "../dist/cjs/BrowserStream.js",
-  "module": "../dist/esm/BrowserStream.js",
-  "types": "../dist/dts/BrowserStream.d.ts",
-  "sideEffects": []
-}
