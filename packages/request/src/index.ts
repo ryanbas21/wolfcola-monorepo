@@ -1,1 +1,1 @@
-export { Fetch, fetchLive } from "./services/fetch.service.js";
+export { Fetch, fetchLive } from "./lib/services/fetch.service.js";

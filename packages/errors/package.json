@@ -12,18 +12,21 @@
   "scripts": {
     "attw": "attw --pack .",
     "dev": "vite",
+    "lint": "pnpm biome lint",
     "build": "tsc -p ./tsconfig.json",
     "preview": "vite preview",
     "test": "vitest"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "catalog:attw",
+    "@biomejs/biome": "catalog:biome",
     "@effect/vitest": "catalog:effect",
-    "@types/node": "^22.0.0",
+    "@types/node": "catalog:typescript",
     "typescript": "catalog:typescript",
     "vite-plugin-dts": "catalog:vite",
     "vite": "catalog:vite",
-    "vitest": "catalog:vite"
+    "vitest": "catalog:vite",
+    "@wolfcola/biome-config": "workspace:*"
   },
   "dependencies": {}
 }

@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
     "types": ["vite/client", "vite"],
-    "lib": [
-      "ES2022",
-      "DOM"
-    ],
     "skipLibCheck": true,
-    "composite": true
+    "composite": true,
+    "declaration": true,
+    "isolatedModules": true,
   }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "@wolfcola/biome-config",
+  "version": "0.0.0",
+  "description": "a biome config for the repo",
+  "type": "module",
+  "exports": {
+    "./biome": "./src/biome.json"
+  },
+  "author": "ryanbas",
+  "license": "MIT"
+}

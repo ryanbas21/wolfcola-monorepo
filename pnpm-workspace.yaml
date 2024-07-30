@@ -5,6 +5,9 @@ packages:
   - services/*
 
 catalogs:
+  biome:
+    "@biomejs/biome": "1.8.3"
+
   effect:
     effect: 3.5.8
     "@effect/platform": ^0.60.2
@@ -13,6 +16,7 @@ catalogs:
 
   typescript:
     typescript: 5.5.4
+    "@types/node": "^22.0.0"
 
   vite:
     vite: 5.3.5

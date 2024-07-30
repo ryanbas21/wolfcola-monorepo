@@ -14,6 +14,7 @@ export default defineConfig({
     outDir: './dist',
   },
   test: {
+    passWithNoTests: true,
     typecheck: {
       tsconfig: './tsconfig.spec.json',
     },

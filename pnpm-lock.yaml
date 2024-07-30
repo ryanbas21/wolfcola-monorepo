@@ -9,6 +9,10 @@ catalogs:
     '@arethetypeswrong/cli':
       specifier: ^0.15.3
       version: 0.15.3
+  biome:
+    '@biomejs/biome':
+      specifier: 1.8.3
+      version: 1.8.3
   effect:
     '@effect/vitest':
       specifier: ^0.6.12
@@ -21,6 +25,9 @@ catalogs:
       specifier: ^3.3.3
       version: 3.3.3
   typescript:
+    '@types/node':
+      specifier: ^22.0.0
+      version: 22.0.0
     typescript:
       specifier: 5.5.4
       version: 5.5.4
@@ -39,9 +46,6 @@ importers:
 
   .:
     devDependencies:
-      '@biomejs/biome':
-        specifier: 1.8.3
-        version: 1.8.3
       '@changesets/changelog-github':
         specifier: ^0.5.0
         version: 0.5.0
@@ -55,17 +59,25 @@ importers:
         specifier: catalog:typescript
         version: 5.5.4
 
+  packages/biome-config: {}
+
   packages/errors:
     devDependencies:
       '@arethetypeswrong/cli':
         specifier: catalog:attw
         version: 0.15.3
+      '@biomejs/biome':
+        specifier: catalog:biome
+        version: 1.8.3
       '@effect/vitest':
         specifier: catalog:effect
         version: 0.6.12(effect@3.5.8)(vitest@2.0.4(@types/node@22.0.0))
       '@types/node':
-        specifier: ^22.0.0
+        specifier: catalog:typescript
         version: 22.0.0
+      '@wolfcola/biome-config':
+        specifier: workspace:*
+        version: link:../biome-config
       typescript:
         specifier: catalog:typescript
         version: 5.5.4
@@ -91,12 +103,18 @@ importers:
       '@arethetypeswrong/cli':
         specifier: catalog:attw
         version: 0.15.3
+      '@biomejs/biome':
+        specifier: catalog:biome
+        version: 1.8.3
       '@effect/vitest':
         specifier: catalog:effect
         version: 0.6.12(effect@3.5.8)(vitest@2.0.4(@types/node@22.0.0))
       '@types/node':
-        specifier: ^22.0.0
+        specifier: catalog:typescript
         version: 22.0.0
+      '@wolfcola/biome-config':
+        specifier: workspace:*
+        version: link:../biome-config
       typescript:
         specifier: catalog:typescript
         version: 5.5.4
