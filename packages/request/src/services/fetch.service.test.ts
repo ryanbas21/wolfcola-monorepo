@@ -1,6 +1,6 @@
 import { Effect, Exit, Layer } from 'effect';
 import { describe, it, expect } from '@effect/vitest';
-import { Fetch, fetchTest } from './fetch.service';
+import { Fetch, fetchTest } from './fetch.service.js';
 
 describe('tests the fetch service', () => {
   describe('get method', () => {
@@ -31,7 +31,7 @@ describe('tests the fetch service', () => {
       Effect.gen(function* () {
         const { post } = yield* Fetch;
 
-        const response = yield* post<'/my_url', string, any, null>(
+        const response = yield* post<'/my_url', string, string, null>(
           '/my_url',
           JSON.stringify({}),
           null,

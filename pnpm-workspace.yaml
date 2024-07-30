@@ -3,3 +3,24 @@ packages:
   - apps/*
   - libraries/*
   - services/*
+
+catalogs:
+  effect:
+    effect: 3.5.8
+    "@effect/platform": ^0.60.2
+    "@effect/platform-browser": ^0.39.2
+    "@effect/vitest": ^0.6.12
+
+  typescript:
+    typescript: 5.5.4
+
+  vite:
+    vite: 5.3.5
+    vitest: 2.0.4
+    vite-plugin-dts: ~3.9.1
+
+  attw:
+    "@arethetypeswrong/cli": ^0.15.3
+
+  prettier:
+    prettier: ^3.3.3
