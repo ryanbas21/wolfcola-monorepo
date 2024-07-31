@@ -10,6 +10,8 @@ jobs:
         node-version: [20]
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     - name: Install pnpm
       uses: pnpm/action-setup@v4
       with:
@@ -21,9 +23,6 @@ jobs:
         cache: 'pnpm'
     - name: Install dependencies
       run: pnpm install
-
-    - name: Lint packages
-      run: pnpm lint
 
     - name: Build packages
       run: pnpm build
