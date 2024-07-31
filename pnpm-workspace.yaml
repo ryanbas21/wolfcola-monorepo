@@ -25,6 +25,3 @@ catalogs:
 
   attw:
     "@arethetypeswrong/cli": ^0.15.3
-
-  prettier:
-    prettier: ^3.3.3
