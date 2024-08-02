@@ -3,12 +3,26 @@ import * as Context from "effect/Context";
 import * as Layer from "effect/Layer";
 import { FetchError, ParsingResponseJsonError } from "@wolfcola/errors";
 
+/**
+ * Fetch Service
+ * @remarks
+ * the object of the Fetch service
+ */
 class Fetch extends Context.Tag("@wolfcola/Fetch")<
 	Fetch,
 	typeof fetchFunctionsLive
 >() {}
 
 const fetchFunctionsTest = {
+	/**
+	 * Post
+	 *
+	 * @param {Url} url: The url to post to
+	 * @param {any} body: The body of the post
+	 * @param {Headers extends HeadersInit} headers: The headers to optionally pass to post
+	 * @returns the Response parsed, a generic you can pass to type the call
+	 *
+	 */
 	post: <
 		const Url extends string,
 		Response,
@@ -29,6 +43,14 @@ const fetchFunctionsTest = {
 				catch: (error) => new ParsingResponseJsonError(error),
 			}),
 		),
+	/**
+	 * Get
+	 *
+	 * @param {Url} url: The url to post to
+	 * @param {Headers extends HeadersInit} headers: The headers to optionally pass to Get
+	 * @returns the Response parsed, a generic you can pass to type the call
+	 *
+	 */
 	get: <
 		const Url extends string,
 		Response,
@@ -49,6 +71,14 @@ const fetchFunctionsTest = {
 };
 
 const fetchFunctionsLive = {
+	/**
+	 * Get
+	 *
+	 * @param {URL} url: The url to post to
+	 * @param {Headers extends HeadersInit} headers: The headers to optionally pass to Get
+	 * @returns the Response parsed, a generic you can pass to type the call
+	 *
+	 */
 	get: <
 		const Url extends string,
 		Response,
@@ -66,6 +96,15 @@ const fetchFunctionsLive = {
 				catch: (error) => new ParsingResponseJsonError(error),
 			}),
 		),
+	/**
+	 * Post
+	 *
+	 * @param url: The url to post to
+	 * @param body: The body of the post
+	 * @param headers: The headers to optionally pass to post
+	 * @returns the Response parsed, a generic you can pass to type the call
+	 *
+	 */
 	post: <
 		const Url extends string,
 		Response,

@@ -6,7 +6,7 @@ packages:
 
 catalogs:
   biome:
-    "@biomejs/biome": "1.8.3"
+    "@biomejs/biome": 1.8.3
 
   effect:
     effect: 3.5.8
@@ -16,7 +16,7 @@ catalogs:
 
   typescript:
     typescript: 5.5.4
-    "@types/node": "^22.0.0"
+    "@types/node": ^22.0.0
 
   vite:
     vite: 5.3.5
@@ -25,3 +25,7 @@ catalogs:
 
   attw:
     "@arethetypeswrong/cli": ^0.15.3
+
+  api-extractor:
+    "@microsoft/api-extractor": ^7.47.4
+    "@microsoft/api-documenter": ^7.25.9
