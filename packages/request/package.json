@@ -6,6 +6,9 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"exports": "./dist/index.js",
+	"publishConfig": {
+		"provenance": true
+	},
 	"files": ["dist/*"],
 	"scripts": {
 		"attw": "attw --pack .",
