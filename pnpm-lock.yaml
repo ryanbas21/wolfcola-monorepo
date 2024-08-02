@@ -12,38 +12,10 @@ catalogs:
     '@microsoft/api-extractor':
       specifier: ^7.47.4
       version: 7.47.4
-  attw:
-    '@arethetypeswrong/cli':
-      specifier: ^0.15.3
-      version: 0.15.3
-  biome:
-    '@biomejs/biome':
-      specifier: 1.8.3
-      version: 1.8.3
-  effect:
-    '@effect/vitest':
-      specifier: ^0.6.12
-      version: 0.6.12
-    effect:
-      specifier: 3.5.8
-      version: 3.5.8
   typescript:
-    '@types/node':
-      specifier: ^22.0.0
-      version: 22.0.0
     typescript:
       specifier: 5.5.4
       version: 5.5.4
-  vite:
-    vite:
-      specifier: 5.3.5
-      version: 5.3.5
-    vite-plugin-dts:
-      specifier: ~3.9.1
-      version: 3.9.1
-    vitest:
-      specifier: 2.0.4
-      version: 2.0.4
 
 importers:
 
