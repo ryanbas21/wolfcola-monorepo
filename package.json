@@ -1,6 +1,12 @@
 {
 	"name": "wolfcola",
 	"description": "a monorepo by me",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ryanbas21/wolfcola-monorepo.git"
+	},
+	"license": "MIT",
+	"author": "ryan bas",
 	"scripts": {
 		"attw": "pnpm run -r attw",
 		"build": "pnpm run -r build",
@@ -10,14 +16,6 @@
 		"lint": "trunk check",
 		"release": "pnpm build && changeset publish",
 		"test": "pnpm run -r test"
-	},
-	"author": "ryan bas",
-	"license": "MIT",
-	"engines": {
-		"node": ">=18.16.1",
-		"yarn": "forbidden use pnpm",
-		"npm": "forbidden use pnpm",
-		"pnpm": ">= 9.6.0"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.5.0",
@@ -29,5 +27,10 @@
 		"ts-node": "^10.9.2",
 		"typescript": "catalog:typescript"
 	},
-	"dependencies": {}
+	"engines": {
+		"node": ">=18.16.1",
+		"npm": "forbidden use pnpm",
+		"pnpm": ">= 9.6.0",
+		"yarn": "forbidden use pnpm"
+	}
 }

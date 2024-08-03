@@ -18,6 +18,7 @@ async function createPackage() {
 	};
 
 	const answers: Record<Questions, unknown> = await inquirer.prompt(
+		//biome-ignore lint/suspicious/noExplicitAny: dont care enough about the types here
 		!rootDir ? [addedQuestion, ...questions] : (questions as any),
 	);
 

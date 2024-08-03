@@ -1,41 +1,45 @@
 {
-	"name": "@wolfcola/create-package",
-	"version": "0.0.0",
-	"description": "create an npm package in a pnpm workspace",
-	"type": "module",
-	"bin": "./dist/src/index.js",
-	"main": "./dist/src/index.js",
-	"module": "./dist/src/index.js",
-	"exports": {
-		".": "./dist/src/index.js"
-	},
-	"scripts": {
-		"attw": "attw --pack .",
-		"build": "tsc -p ./tsconfig.json",
-		"dev": "tsc && node ./dist/src/index.js",
-		"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
-		"lint": "pnpm biome lint",
-		"preview": "vite preview",
-		"test": "vitest",
-		"tsc": "tsc --watch"
-	},
-	"keywords": ["pnpm", "create", "package"],
-	"author": "ryan bas",
-	"license": "MIT",
-	"dependencies": {
-		"fs-jetpack": "^5.1.0",
-		"inquirer": "^10.1.6"
-	},
-	"devDependencies": {
-		"@arethetypeswrong/cli": "catalog:attw",
-		"@biomejs/biome": "catalog:biome",
-		"@effect/vitest": "catalog:effect",
-		"@types/node": "catalog:typescript",
-		"@wolfcola/biome-config": "workspace:*",
-		"@wolfcola/typescript-config": "workspace:*",
-		"typescript": "catalog:typescript",
-		"vite-plugin-dts": "catalog:vite",
-		"vite": "catalog:vite",
-		"vitest": "catalog:vite"
-	}
+  "name": "@wolfcola/create-package",
+  "version": "0.0.0",
+  "description": "create an npm package in a pnpm workspace",
+  "keywords": [
+    "pnpm",
+    "create",
+    "package"
+  ],
+  "license": "MIT",
+  "author": "ryan bas",
+  "type": "module",
+  "exports": {
+    ".": "./dist/src/index.js"
+  },
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "bin": "./dist/src/index.js",
+  "scripts": {
+    "attw": "attw --pack .",
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "tsc && node ./dist/src/index.js",
+    "docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+    "lint": "pnpm biome lint",
+    "preview": "vite preview",
+    "test": "vitest",
+    "tsc": "tsc --watch"
+  },
+  "dependencies": {
+    "fs-jetpack": "^5.1.0",
+    "inquirer": "^10.1.6"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "catalog:attw",
+    "@biomejs/biome": "catalog:biome",
+    "@effect/vitest": "catalog:effect",
+    "@types/node": "catalog:typescript",
+    "@wolfcola/biome-config": "workspace:*",
+    "@wolfcola/typescript-config": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vite-plugin-dts": "catalog:vite",
+    "vitest": "catalog:vite"
+  }
 }

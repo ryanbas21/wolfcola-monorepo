@@ -18,14 +18,14 @@ catalogs:
       version: 0.15.3
   biome:
     '@biomejs/biome':
-      specifier: 1.8.3
+      specifier: ^1.8.3
       version: 1.8.3
   effect:
     '@effect/vitest':
       specifier: ^0.6.12
       version: 0.6.12
     effect:
-      specifier: 3.5.8
+      specifier: ^3.5.8
       version: 3.5.8
   typescript:
     '@types/node':
