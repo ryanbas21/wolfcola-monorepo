@@ -9,7 +9,7 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"formatWithErrors": false,
+		"formatWithErrors": true,
 		"ignore": [],
 		"attributePosition": "auto",
 		"indentStyle": "tab",
@@ -20,7 +20,7 @@
 	"javascript": {
 		"formatter": {
 			"arrowParentheses": "always",
-			"bracketSameLine": false,
+			"bracketSameLine": true,
 			"bracketSpacing": true,
 			"jsxQuoteStyle": "double",
 			"quoteProperties": "asNeeded",
@@ -42,6 +42,7 @@
 	"vcs": {
 		"enabled": true,
 		"clientKind": "git",
-		"useIgnoreFile": true
+		"useIgnoreFile": true,
+		"defaultBranch": "main"
 	}
 }
