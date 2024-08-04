@@ -1,38 +1,43 @@
 {
-	"name": "@wolfcola/errors",
-	"version": "0.0.5",
-	"private": false,
-	"type": "module",
-	"exports": "./dist/src/index.js",
-	"main": "./dist/src/index.js",
-	"module": "./dist/src/index.js",
-	"files": [
-		"dist/*"
-	],
-	"scripts": {
-		"attw": "attw --pack .",
-		"build": "tsc -p ./tsconfig.json",
-		"dev": "vite",
-		"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
-		"lint": "pnpm biome lint",
-		"preview": "vite preview",
-		"test": "vitest"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@arethetypeswrong/cli": "catalog:attw",
-		"@biomejs/biome": "catalog:biome",
-		"@effect/vitest": "catalog:effect",
-		"@microsoft/api-extractor": "catalog:api-extractor",
-		"@types/node": "catalog:typescript",
-		"@wolfcola/biome-config": "workspace:*",
-		"@wolfcola/typescript-config": "workspace:*",
-		"typescript": "catalog:typescript",
-		"vite": "catalog:vite",
-		"vite-plugin-dts": "catalog:vite",
-		"vitest": "catalog:vite"
-	},
-	"publishConfig": {
-		"provenance": true
-	}
+  "name": "@wolfcola/errors",
+  "version": "0.0.5",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanbas21/wolfcola-monorepo.git",
+    "directory": "packages/errors"
+  },
+  "type": "module",
+  "exports": "./dist/src/index.js",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "attw": "attw --pack .",
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "vite",
+    "docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+    "lint": "pnpm biome lint",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@arethetypeswrong/cli": "catalog:attw",
+    "@biomejs/biome": "catalog:biome",
+    "@effect/vitest": "catalog:effect",
+    "@microsoft/api-extractor": "catalog:api-extractor",
+    "@types/node": "catalog:typescript",
+    "@wolfcola/biome-config": "workspace:*",
+    "@wolfcola/typescript-config": "workspace:*",
+    "typescript": "catalog:typescript",
+    "vite": "catalog:vite",
+    "vite-plugin-dts": "catalog:vite",
+    "vitest": "catalog:vite"
+  },
+  "publishConfig": {
+    "provenance": true
+  }
 }
