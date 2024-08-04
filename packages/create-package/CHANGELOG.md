@@ -1,5 +1,11 @@
 # @wolfcola/create-package
 
+## 0.0.7
+
+### Patch Changes
+
+- [#72](https://github.com/ryanbas21/wolfcola-monorepo/pull/72) [`406c034`](https://github.com/ryanbas21/wolfcola-monorepo/commit/406c034781c0d687a82c20052ccf2aecf8583268) Thanks [@ryanbas21](https://github.com/ryanbas21)! - fix create package and generate provenance in package.json.
+
 ## 0.0.6
 
 ### Patch Changes
