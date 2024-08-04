@@ -21,6 +21,9 @@
   "main": "./dist/src/index.js",
   "module": "./dist/src/index.js",
   "bin": "./dist/src/index.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "attw": "attw --pack .",
     "build": "tsc -p ./tsconfig.json",
@@ -46,5 +49,8 @@
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
     "vitest": "catalog:vite"
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
