@@ -1,0 +1,438 @@
+{
+	"name": "@wolfcola/typescript-config",
+	"versions": {
+		"0.0.4": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.4",
+			"author": {
+				"name": "ryan bas"
+			},
+			"license": "MIT",
+			"_id": "@wolfcola/typescript-config@0.0.4",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "74963b12d18d720ae441995086098885d2798114",
+				"tarball": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.4.tgz",
+				"fileCount": 5,
+				"integrity": "sha512-uSXSrpiNdlCe4ORpTdekL/rueXbE8yMJ1qbNYRUNdPphgrfk38kOooyB3H1xtGsZ47VFZ5A78c4QH3YtTiuj+g==",
+				"signatures": [
+					{
+						"sig": "MEYCIQCb2eiWmT427bLVrRhggbRnpRzPlPqrrTZgZ4vLzc1twAIhAKGMpuYDS+dlhCAQ6LfI8X+mtnTdMq8s+AcL4ENrEuat",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"unpackedSize": 2452
+			},
+			"_from": "file:wolfcola-typescript-config-0.0.4.tgz",
+			"exports": {
+				"./tsconfig": "./src/tsconfig.json",
+				"./tsconfig.spec": "./src/tsconfig.spec.json"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/7f707d5e22116672deca841de3e0bdcc/wolfcola-typescript-config-0.0.4.tgz",
+			"_integrity": "sha512-uSXSrpiNdlCe4ORpTdekL/rueXbE8yMJ1qbNYRUNdPphgrfk38kOooyB3H1xtGsZ47VFZ5A78c4QH3YtTiuj+g==",
+			"_npmVersion": "10.7.0",
+			"description": "a shareable ts config",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"typescript": "5.5.4"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/typescript-config_0.0.4_1722382496942_0.3053921406247151",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.5",
+			"author": {
+				"name": "ryan bas"
+			},
+			"license": "MIT",
+			"_id": "@wolfcola/typescript-config@0.0.5",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "c4e92dc3a4e61825d6a9d8ff828a05b191e3566d",
+				"tarball": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.5.tgz",
+				"fileCount": 7,
+				"integrity": "sha512-ZPUXeMLE/WG8osKcP6vSObsS5WJmb0Hj2hr9EtgBgfpRh1oy7xAufz/xVEr2Mw6wui2yB4XDpOOgtjA+rbuDVw==",
+				"signatures": [
+					{
+						"sig": "MEYCIQDW2ka2cs8SbPKZigc8AB8BKXvD07Q69ZW2GPDpVDNbQQIhALEh22zkvu4zBhwLStdc4ofCOZZ7NLyKRMeWR9ergVnE",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ftypescript-config@0.0.5",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 4091
+			},
+			"_from": "file:wolfcola-typescript-config-0.0.5.tgz",
+			"exports": {
+				"./web": "./src/tsconfig.web.json",
+				"./node": "./src/tsconfig.node.json",
+				"./spec": "./src/tsconfig.spec.json"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/cb11db509c0c6b4ff702cf155e54e961/wolfcola-typescript-config-0.0.5.tgz",
+			"_integrity": "sha512-ZPUXeMLE/WG8osKcP6vSObsS5WJmb0Hj2hr9EtgBgfpRh1oy7xAufz/xVEr2Mw6wui2yB4XDpOOgtjA+rbuDVw==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/typescript-config"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a shareable ts config",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"peerDependencies": {
+				"typescript": "^5.5.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/typescript-config_0.0.5_1722739509083_0.6269695808301141",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.6",
+			"author": {
+				"name": "ryan bas"
+			},
+			"license": "MIT",
+			"_id": "@wolfcola/typescript-config@0.0.6",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "4d68c9a691308fa21ec33cd7243c3f33ed77c9aa",
+				"tarball": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.6.tgz",
+				"fileCount": 7,
+				"integrity": "sha512-WDdDdJ3aEsDshy0jz8dz6eWQ5PUbwplPZRPm4DTlRpzxK7rmxh88YAuVgfr5kVyB5Q4KW4SaqiK2sdXuSQuTkA==",
+				"signatures": [
+					{
+						"sig": "MEUCIGwvWRbnelzaUFb4D87PM6h4bdhPmvE7uv2PWlVAXXEvAiEA7pXEhhiafpxI1fx5dhgOFTfTI9wEryvsAylX60c9UU8=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ftypescript-config@0.0.6",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 4418
+			},
+			"_from": "file:wolfcola-typescript-config-0.0.6.tgz",
+			"exports": {
+				"./web": "./src/tsconfig.web.json",
+				"./node": "./src/tsconfig.node.json",
+				"./spec": "./src/tsconfig.spec.json"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/913ea33bdf0d8198434e4a28f7115bce/wolfcola-typescript-config-0.0.6.tgz",
+			"_integrity": "sha512-WDdDdJ3aEsDshy0jz8dz6eWQ5PUbwplPZRPm4DTlRpzxK7rmxh88YAuVgfr5kVyB5Q4KW4SaqiK2sdXuSQuTkA==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/typescript-config"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a shareable ts config",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"peerDependencies": {
+				"typescript": "^5.5.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/typescript-config_0.0.6_1722740181260_0.2250590246040598",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.7": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.7",
+			"author": {
+				"name": "ryan bas"
+			},
+			"license": "MIT",
+			"_id": "@wolfcola/typescript-config@0.0.7",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "a1891e769a551696076e529bba1cb185f7b4ef77",
+				"tarball": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.7.tgz",
+				"fileCount": 7,
+				"integrity": "sha512-0wWU37O8+DfgKIGw5pdqOnmFi6IbNFmXW5ZIkQJM/NFd1Rp0uAvQl3bVnLWowuEkypB43P3X96JqbMzanVcGTQ==",
+				"signatures": [
+					{
+						"sig": "MEYCIQCy9gR+i7V+qWVM4puqxjwFcEmQwEmNJ4F8RZeFHk8iVwIhAKTwaIfEmVAad2PUVeNLOakZGv6kfXgpaXvnwGk8fSI+",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ftypescript-config@0.0.7",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 4428
+			},
+			"_from": "file:wolfcola-typescript-config-0.0.7.tgz",
+			"exports": {
+				"./web": "./src/tsconfig.web.json",
+				"./node": "./src/tsconfig.node.json",
+				"./spec": "./src/tsconfig.spec.json"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/a9856fa68e3ac6bcccdd0b85d7128354/wolfcola-typescript-config-0.0.7.tgz",
+			"_integrity": "sha512-0wWU37O8+DfgKIGw5pdqOnmFi6IbNFmXW5ZIkQJM/NFd1Rp0uAvQl3bVnLWowuEkypB43P3X96JqbMzanVcGTQ==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/typescript-config"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a shareable ts config",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"peerDependencies": {
+				"typescript": "^5.5.0"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/typescript-config_0.0.7_1722742708342_0.6172355102875651",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.8",
+			"description": "a shareable ts config",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"directory": "packages/typescript-config"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "ryan bas"
+			},
+			"exports": {
+				"./node": "./src/tsconfig.node.json",
+				"./spec": "./src/tsconfig.spec.json",
+				"./web": "./src/tsconfig.web.json"
+			},
+			"peerDependencies": {
+				"typescript": "^5.5.0"
+			},
+			"publishConfig": {
+				"provenance": true
+			},
+			"_id": "@wolfcola/typescript-config@0.0.8",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"_integrity": "sha512-US9KNQz1hEL62LxuLHlGPPcRAbbBYvTdLoo55Td/GhwfrQ60bTDpDnkEKT+Sx/nxIsYScsXOvE2N6PqggEkUuA==",
+			"_resolved": "/tmp/1204f884ec50c1c0ac709aa90c8c735e/wolfcola-typescript-config-0.0.8.tgz",
+			"_from": "file:wolfcola-typescript-config-0.0.8.tgz",
+			"_nodeVersion": "20.16.0",
+			"_npmVersion": "10.8.1",
+			"dist": {
+				"integrity": "sha512-US9KNQz1hEL62LxuLHlGPPcRAbbBYvTdLoo55Td/GhwfrQ60bTDpDnkEKT+Sx/nxIsYScsXOvE2N6PqggEkUuA==",
+				"shasum": "843c2ce2295998639dd3020901ba7c610e19bda6",
+				"tarball": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.8.tgz",
+				"fileCount": 7,
+				"unpackedSize": 4438,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ftypescript-config@0.0.8",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHuPZAkK+/6c0mtB7ejC1UxlPuMHe5g6CLrDUQVYEz95AiA19/xMOSAoqZCSLKoMnESkkoZjIYhR58P+CqpqYE/xcw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/typescript-config_0.0.8_1722744274842_0.13402781142687226"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.9-local.0": {
+			"name": "@wolfcola/typescript-config",
+			"version": "0.0.9-local.0",
+			"description": "a shareable ts config",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"directory": "packages/typescript-config"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "ryan bas"
+			},
+			"exports": {
+				"./node": "./src/tsconfig.node.json",
+				"./spec": "./src/tsconfig.spec.json",
+				"./web": "./src/tsconfig.web.json"
+			},
+			"scripts": {
+				"release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks"
+			},
+			"peerDependencies": {
+				"typescript": "catalog:typescript"
+			},
+			"_id": "@wolfcola/typescript-config@0.0.9-local.0",
+			"readmeFilename": "README.md",
+			"gitHead": "ce6c7265f7e8701273a6b8340b2f6591ef94c301",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"_nodeVersion": "22.6.0",
+			"_npmVersion": "10.8.2",
+			"dist": {
+				"integrity": "sha512-nEJeH/Xg6iycxp9SmH4nC1ctaMAewN4m0v1zRvbMlgMWnPy3QRoukY9OTY0oo2ehEu9rNa1FnZ9CtG2tuIvZRQ==",
+				"shasum": "389023bbb578e0226c850ab81e671c57fbd94370",
+				"tarball": "http://localhost:4873/@wolfcola/typescript-config/-/@wolfcola/typescript-config-0.0.9-local.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2024-07-30T23:34:56.867Z",
+		"modified": "2024-08-07T03:09:13.733Z",
+		"0.0.4": "2024-07-30T23:34:57.115Z",
+		"0.0.5": "2024-08-04T02:45:09.244Z",
+		"0.0.6": "2024-08-04T02:56:21.425Z",
+		"0.0.7": "2024-08-04T03:38:28.468Z",
+		"0.0.8": "2024-08-04T04:04:34.998Z",
+		"0.0.9-local.0": "2024-08-07T03:09:13.733Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.8",
+		"local": "0.0.9-local.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8552373ac3eb9a6886e1b01f1c498b11\"",
+			"fetched": 1723000151659
+		}
+	},
+	"_distfiles": {
+		"typescript-config-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.4.tgz",
+			"sha": "74963b12d18d720ae441995086098885d2798114",
+			"registry": "npmjs"
+		},
+		"typescript-config-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.5.tgz",
+			"sha": "c4e92dc3a4e61825d6a9d8ff828a05b191e3566d",
+			"registry": "npmjs"
+		},
+		"typescript-config-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.6.tgz",
+			"sha": "4d68c9a691308fa21ec33cd7243c3f33ed77c9aa",
+			"registry": "npmjs"
+		},
+		"typescript-config-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.7.tgz",
+			"sha": "a1891e769a551696076e529bba1cb185f7b4ef77",
+			"registry": "npmjs"
+		},
+		"typescript-config-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/typescript-config/-/typescript-config-0.0.8.tgz",
+			"sha": "843c2ce2295998639dd3020901ba7c610e19bda6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"typescript-config-0.0.9-local.0.tgz": {
+			"shasum": "389023bbb578e0226c850ab81e671c57fbd94370",
+			"version": "0.0.9-local.0"
+		}
+	},
+	"_rev": "4-62e0fe7f9c079fd2",
+	"_id": "@wolfcola/typescript-config",
+	"readme": "# Wolfcola typescript config\n\nThis is the wolfcola typescript config package. It's created to share the config within the repo,\nbut also to the world and beyond if you care.\n"
+}

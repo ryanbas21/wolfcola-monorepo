@@ -1,0 +1,684 @@
+{
+	"name": "@wolfcola/errors",
+	"versions": {
+		"0.0.2": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.2",
+			"_id": "@wolfcola/errors@0.0.2",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "24b701a2cf1bbc1fe5a134aaaaaaf21da105e9da",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.2.tgz",
+				"fileCount": 10,
+				"integrity": "sha512-ubXKMHyzkVLeUdwXt6kfH2e1gwJt+pivz7JXPMxCAcyJowzF7BFv4PcYEXYsuIXhWiE3xc2Pe5JOZkGE+nyGtw==",
+				"signatures": [
+					{
+						"sig": "MEQCIDzLPdwA9eVkrkqn6NXyxcYggz5MbSnf69hOagw25btkAiAIDCEfJQm7MbUgZmZuPj8K/aPqvUj1h5CVrq+Ouo0w8g==",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"unpackedSize": 14938
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.2.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/d5653a3d8983eb69ec613f5717acbf12/wolfcola-errors-0.0.2.tgz",
+			"_integrity": "sha512-ubXKMHyzkVLeUdwXt6kfH2e1gwJt+pivz7JXPMxCAcyJowzF7BFv4PcYEXYsuIXhWiE3xc2Pe5JOZkGE+nyGtw==",
+			"_npmVersion": "10.7.0",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "5.5.4",
+				"@types/node": "^22.0.0",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.2_1722372603407_0.15292975598782355",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.3",
+			"_id": "@wolfcola/errors@0.0.3",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "89a00c2bba891238d386cdfa52c81a57e98d6ddd",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.3.tgz",
+				"fileCount": 10,
+				"integrity": "sha512-OPma5xaFmXtfaU1dXZ6aJ1pnrM6j/8H6OmAyvr7tiI051rhBUum5vRIq1n08B3Y3PMb+r5nmSeI32+KcCqzhwA==",
+				"signatures": [
+					{
+						"sig": "MEQCIEMTimh7KvAwM+57S7ET5qIQp6V+GZ4x2KzSxZgbDN7JAiA9dnmPnXbje5TkoI7oqM27q47MLgVPTc2kjf+ou4ibnA==",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"unpackedSize": 15906
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.3.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"lint": "pnpm biome lint",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/beca999aff646584b51e9607a71c0254/wolfcola-errors-0.0.3.tgz",
+			"_integrity": "sha512-OPma5xaFmXtfaU1dXZ6aJ1pnrM6j/8H6OmAyvr7tiI051rhBUum5vRIq1n08B3Y3PMb+r5nmSeI32+KcCqzhwA==",
+			"_npmVersion": "10.7.0",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "5.5.4",
+				"@types/node": "^22.0.0",
+				"@biomejs/biome": "1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@wolfcola/biome-config": "0.0.3"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.3_1722380868032_0.8032972863335246",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.4",
+			"_id": "@wolfcola/errors@0.0.4",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "ae9401bf2ea9f89dff6b86a23dfabcf6a5e7bba2",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.4.tgz",
+				"fileCount": 10,
+				"integrity": "sha512-HEz5w8fg2k5nl5QS53LdnWCH4PVd4O157SlbkZEC2CoPg07pDlj62kfSqUxIKDxmtdswSc386eMdCawAo8+2Zw==",
+				"signatures": [
+					{
+						"sig": "MEUCIQCQnttEHV+3hpRBFliE0vcLfEujLD3I7VEpnJS+T+R5+AIgME7PBccI+2g01+BA4tUIAzBjCp3dQCOI5L0nrUTXQmc=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"unpackedSize": 15950
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.4.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"lint": "pnpm biome lint",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/02787f36fcfe871ce3b989f7b2e88d4d/wolfcola-errors-0.0.4.tgz",
+			"_integrity": "sha512-HEz5w8fg2k5nl5QS53LdnWCH4PVd4O157SlbkZEC2CoPg07pDlj62kfSqUxIKDxmtdswSc386eMdCawAo8+2Zw==",
+			"_npmVersion": "10.7.0",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.15.1",
+			"dependencies": {},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "5.5.4",
+				"@types/node": "^22.0.0",
+				"@biomejs/biome": "1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@wolfcola/biome-config": "0.0.4",
+				"@wolfcola/typescript-config": "0.0.4"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.4_1722382496752_0.8894383833749335",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.5",
+			"_id": "@wolfcola/errors@0.0.5",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "24c2faa01a70b9feed540b656b446fd81c779ef1",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.5.tgz",
+				"fileCount": 16,
+				"integrity": "sha512-i21I6B0C0h2F7vpQFL8Ps1DxuMd5JwSOaOEPQBPpsNT7Gfoup+G7y7Zjh8mHmpeCKQ+9H+V9Dv6eVV5AWOK2bQ==",
+				"signatures": [
+					{
+						"sig": "MEUCIBEG83rme0dsMFkdBwCSlyLQgioTRvSf3tMecrMJGFMZAiEA3W0ySSREvz494ebf713IaU34+jGb4i22sN5Y4lCiGV4=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ferrors@0.0.5",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 38501
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.5.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+				"lint": "pnpm biome lint",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/d1f8b78a8036d50246c711eedc4db425/wolfcola-errors-0.0.5.tgz",
+			"_integrity": "sha512-i21I6B0C0h2F7vpQFL8Ps1DxuMd5JwSOaOEPQBPpsNT7Gfoup+G7y7Zjh8mHmpeCKQ+9H+V9Dv6eVV5AWOK2bQ==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/errors"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"dependencies": {},
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "^5.5.0",
+				"@types/node": "^22.0.0",
+				"@biomejs/biome": "^1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@wolfcola/biome-config": "0.0.5",
+				"@microsoft/api-extractor": "^7.47.4",
+				"@wolfcola/typescript-config": "0.0.5"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.5_1722739508947_0.25725601224568484",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.6",
+			"_id": "@wolfcola/errors@0.0.6",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "46ddf3c919bef82d76947d25a9cc7a4817107d0c",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.6.tgz",
+				"fileCount": 16,
+				"integrity": "sha512-yk7gKNXlj41grCDIzCk0FNTpZI70ImmingBzsZfBcibj1BHPecgKs/48CetB/l5JhHaGhnR9uHH8vHSRhLx/CQ==",
+				"signatures": [
+					{
+						"sig": "MEUCID+myNWx92UvW+T6bmqSNNBm3+0Kyx91JsxnXwjVQnnYAiEAigwYY+SAWIGIwp5EWvrQmPyuA6NvVCyew6nrvBJ/cNQ=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ferrors@0.0.6",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 38501
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.6.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+				"lint": "pnpm biome lint",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/ca477b22c3e94b91944827ca3d0cb9fb/wolfcola-errors-0.0.6.tgz",
+			"_integrity": "sha512-yk7gKNXlj41grCDIzCk0FNTpZI70ImmingBzsZfBcibj1BHPecgKs/48CetB/l5JhHaGhnR9uHH8vHSRhLx/CQ==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/errors"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"dependencies": {},
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "^5.5.0",
+				"@types/node": "^22.0.0",
+				"@biomejs/biome": "^1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@wolfcola/biome-config": "0.0.6",
+				"@microsoft/api-extractor": "^7.47.4",
+				"@wolfcola/typescript-config": "0.0.6"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.6_1722740181212_0.1681902754105009",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.7": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.7",
+			"_id": "@wolfcola/errors@0.0.7",
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"dist": {
+				"shasum": "3a9f195947aeb5a46cc47e17f8fcdcecd2e27f10",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.7.tgz",
+				"fileCount": 16,
+				"integrity": "sha512-VaNufMsL5fbcwXeogZ9XlgyZuMnicp51uVnbk0NsSKwU5iZGdBkSSRCgY9L/GtriTZ+sxx7eLAgjht8BSSVruw==",
+				"signatures": [
+					{
+						"sig": "MEUCIAlSwHGp/nJHfbnkPGYP4WKZYSArj5sTbPEClx5c2qUdAiEA+gS5WTYyBiIa+cyHyVsGi5QUM7hwzVmG62vxqTtlAwA=",
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+					}
+				],
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ferrors@0.0.7",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"unpackedSize": 38501
+			},
+			"main": "./dist/src/index.js",
+			"type": "module",
+			"_from": "file:wolfcola-errors-0.0.7.tgz",
+			"types": "./dist/src/index.d.ts",
+			"module": "./dist/src/index.js",
+			"exports": "./dist/src/index.js",
+			"private": false,
+			"scripts": {
+				"dev": "vite",
+				"attw": "attw --pack .",
+				"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+				"lint": "pnpm biome lint",
+				"test": "vitest",
+				"build": "tsc -p ./tsconfig.json",
+				"preview": "vite preview"
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"_resolved": "/tmp/dfbd2e0f852ddc16cc5020a563cceb5c/wolfcola-errors-0.0.7.tgz",
+			"_integrity": "sha512-VaNufMsL5fbcwXeogZ9XlgyZuMnicp51uVnbk0NsSKwU5iZGdBkSSRCgY9L/GtriTZ+sxx7eLAgjht8BSSVruw==",
+			"repository": {
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"type": "git",
+				"directory": "packages/errors"
+			},
+			"_npmVersion": "10.8.1",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"directories": {},
+			"_nodeVersion": "20.16.0",
+			"dependencies": {},
+			"publishConfig": {
+				"provenance": true
+			},
+			"_hasShrinkwrap": false,
+			"devDependencies": {
+				"vite": "5.3.5",
+				"vitest": "2.0.4",
+				"typescript": "^5.5.0",
+				"@types/node": "^22.0.0",
+				"@biomejs/biome": "^1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"vite-plugin-dts": "~3.9.1",
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@wolfcola/biome-config": "0.0.7",
+				"@microsoft/api-extractor": "^7.47.4",
+				"@wolfcola/typescript-config": "0.0.7"
+			},
+			"_npmOperationalInternal": {
+				"tmp": "tmp/errors_0.0.7_1722742708247_0.8517909120853466",
+				"host": "s3://npm-registry-packages"
+			},
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.8",
+			"private": false,
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"directory": "packages/errors"
+			},
+			"type": "module",
+			"exports": "./dist/src/index.js",
+			"main": "./dist/src/index.js",
+			"module": "./dist/src/index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"@arethetypeswrong/cli": "^0.15.3",
+				"@biomejs/biome": "^1.8.3",
+				"@effect/vitest": "^0.6.12",
+				"@microsoft/api-extractor": "^7.47.4",
+				"@types/node": "^22.0.0",
+				"typescript": "^5.5.0",
+				"vite": "5.3.5",
+				"vite-plugin-dts": "~3.9.1",
+				"vitest": "2.0.4",
+				"@wolfcola/biome-config": "0.0.8",
+				"@wolfcola/typescript-config": "0.0.8"
+			},
+			"publishConfig": {
+				"provenance": true
+			},
+			"scripts": {
+				"attw": "attw --pack .",
+				"build": "tsc -p ./tsconfig.json",
+				"dev": "vite",
+				"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+				"lint": "pnpm biome lint",
+				"preview": "vite preview",
+				"test": "vitest"
+			},
+			"_id": "@wolfcola/errors@0.0.8",
+			"types": "./dist/src/index.d.ts",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"_integrity": "sha512-4GS2XwJwv4AcRCG11VKTdN0t5wp9qAeKzX5l5E+Ne6aTxHdBCy98FRSWA6q8lSUI9iLCuhJukqxgunIayR4ewA==",
+			"_resolved": "/tmp/4175a8136e37cd888e4cac4fbcff9646/wolfcola-errors-0.0.8.tgz",
+			"_from": "file:wolfcola-errors-0.0.8.tgz",
+			"_nodeVersion": "20.16.0",
+			"_npmVersion": "10.8.1",
+			"dist": {
+				"integrity": "sha512-4GS2XwJwv4AcRCG11VKTdN0t5wp9qAeKzX5l5E+Ne6aTxHdBCy98FRSWA6q8lSUI9iLCuhJukqxgunIayR4ewA==",
+				"shasum": "455e55e5124e1d7334fc448ffbcefa2a11d7c9d7",
+				"tarball": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.8.tgz",
+				"fileCount": 16,
+				"unpackedSize": 38501,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@wolfcola%2ferrors@0.0.8",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDUCh5kn9jF5Why6fTZWT1G88ryVfcbc5eaf7pcFyx6vwIhAKkPs1Nu1m13XLUY9gO6yi7oKh76bbrStJLZqMwRORmF"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ryanbas21",
+				"email": "ryanbas21@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ryanbas21",
+					"email": "ryanbas21@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/errors_0.0.8_1722744274821_0.6627155893721028"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.9-local.0": {
+			"name": "@wolfcola/errors",
+			"version": "0.0.9-local.0",
+			"private": false,
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/ryanbas21/wolfcola-monorepo.git",
+				"directory": "packages/errors"
+			},
+			"type": "module",
+			"exports": "./dist/src/index.js",
+			"main": "./dist/src/index.js",
+			"module": "./dist/src/index.js",
+			"files": [
+				"dist/*"
+			],
+			"scripts": {
+				"attw": "attw --pack .",
+				"build": "tsc -p ./tsconfig.lib.json",
+				"dev": "vite",
+				"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
+				"lint": "pnpm biome lint",
+				"preview": "vite preview",
+				"prepublish": "pnpm build",
+				"release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
+				"test": "vitest"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@arethetypeswrong/cli": "catalog:attw",
+				"@biomejs/biome": "catalog:biome",
+				"@effect/vitest": "catalog:effect",
+				"@microsoft/api-extractor": "catalog:api-extractor",
+				"@types/node": "catalog:typescript",
+				"@wolfcola/biome-config": "0.0.9-local.0",
+				"@wolfcola/typescript-config": "0.0.9-local.0",
+				"typescript": "catalog:typescript",
+				"vite": "catalog:vite",
+				"vite-plugin-dts": "catalog:vite",
+				"vitest": "catalog:vite"
+			},
+			"_id": "@wolfcola/errors@0.0.9-local.0",
+			"readmeFilename": "README.md",
+			"gitHead": "ce6c7265f7e8701273a6b8340b2f6591ef94c301",
+			"types": "./dist/src/index.d.ts",
+			"description": "a basic package containing errors to use in `effect` packages / apps",
+			"bugs": {
+				"url": "https://github.com/ryanbas21/wolfcola-monorepo/issues"
+			},
+			"homepage": "https://github.com/ryanbas21/wolfcola-monorepo#readme",
+			"_nodeVersion": "22.6.0",
+			"_npmVersion": "10.8.2",
+			"dist": {
+				"integrity": "sha512-s9HIFayeSjkREZHvtv40t2mlpBSX7DRudLtRUuR57kSk+EkJ+Z2a0VqTSBjpGXgOoHrjfie7TfG5hqeMpLsxjg==",
+				"shasum": "8b55cae4ea4154a43e51802758b5df1a92d38344",
+				"tarball": "http://localhost:4873/@wolfcola/errors/-/@wolfcola/errors-0.0.9-local.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2024-07-30T20:50:03.275Z",
+		"modified": "2024-08-07T03:09:16.865Z",
+		"0.0.2": "2024-07-30T20:50:03.661Z",
+		"0.0.3": "2024-07-30T23:07:48.243Z",
+		"0.0.4": "2024-07-30T23:34:56.919Z",
+		"0.0.5": "2024-08-04T02:45:09.113Z",
+		"0.0.6": "2024-08-04T02:56:21.362Z",
+		"0.0.7": "2024-08-04T03:38:28.401Z",
+		"0.0.8": "2024-08-04T04:04:34.985Z",
+		"0.0.9-local.0": "2024-08-07T03:09:16.865Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.8",
+		"local": "0.0.9-local.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"12cf78c9c6bcf7e265e557df83d6de88\"",
+			"fetched": 1723000154630
+		}
+	},
+	"_distfiles": {
+		"errors-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.2.tgz",
+			"sha": "24b701a2cf1bbc1fe5a134aaaaaaf21da105e9da",
+			"registry": "npmjs"
+		},
+		"errors-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.3.tgz",
+			"sha": "89a00c2bba891238d386cdfa52c81a57e98d6ddd",
+			"registry": "npmjs"
+		},
+		"errors-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.4.tgz",
+			"sha": "ae9401bf2ea9f89dff6b86a23dfabcf6a5e7bba2",
+			"registry": "npmjs"
+		},
+		"errors-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.5.tgz",
+			"sha": "24c2faa01a70b9feed540b656b446fd81c779ef1",
+			"registry": "npmjs"
+		},
+		"errors-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.6.tgz",
+			"sha": "46ddf3c919bef82d76947d25a9cc7a4817107d0c",
+			"registry": "npmjs"
+		},
+		"errors-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.7.tgz",
+			"sha": "3a9f195947aeb5a46cc47e17f8fcdcecd2e27f10",
+			"registry": "npmjs"
+		},
+		"errors-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@wolfcola/errors/-/errors-0.0.8.tgz",
+			"sha": "455e55e5124e1d7334fc448ffbcefa2a11d7c9d7",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"errors-0.0.9-local.0.tgz": {
+			"shasum": "8b55cae4ea4154a43e51802758b5df1a92d38344",
+			"version": "0.0.9-local.0"
+		}
+	},
+	"_rev": "4-d9fa299f56291aba",
+	"_id": "@wolfcola/errors",
+	"readme": "# Errors\n\na basic package containing errors to use in `effect` packages / apps\n"
+}
