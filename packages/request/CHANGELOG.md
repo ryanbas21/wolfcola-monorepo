@@ -1,5 +1,12 @@
 # @wolfcola/request
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @wolfcola/errors@0.0.7
+
 ## 0.0.6
 
 ### Patch Changes
