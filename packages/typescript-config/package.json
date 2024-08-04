@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/typescript-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a shareable ts config",
   "repository": {
     "type": "git",
