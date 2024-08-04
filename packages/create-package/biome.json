@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@wolfcola/biome-config/biome"
+  ]
+}

@@ -6,10 +6,10 @@ packages:
 
 catalogs:
   biome:
-    "@biomejs/biome": 1.8.3
+    "@biomejs/biome": ^1.8.3
 
   effect:
-    effect: 3.5.8
+    effect: ^3.5.8
     "@effect/platform": ^0.60.2
     "@effect/platform-browser": ^0.39.2
     "@effect/vitest": ^0.6.12
