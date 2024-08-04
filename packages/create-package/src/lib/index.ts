@@ -53,7 +53,11 @@ async function createPackage() {
 			test: "vitest",
 			tsc: "tsc --watch",
 		};
-
+		packageJson.repository = {
+			type: "git",
+			url: "git@github.com:ryanbas21/wolfcola-monorepo.git",
+			directory: `${rootDir.replace("./", "")}`,
+		};
 		packageJson.devDependencies = {
 			"@arethetypeswrong/cli": "catalog:attw",
 			"@biomejs/biome": "catalog:biome",
@@ -65,6 +69,9 @@ async function createPackage() {
 			"vite-plugin-dts": "catalog:vite",
 			vite: "catalog:vite",
 			vitest: "catalog:vite",
+		};
+		packageJson.publishConfig = {
+			provenance: true,
 		};
 
 		await fs.writeAsync(packageJsonPath, packageJson);
