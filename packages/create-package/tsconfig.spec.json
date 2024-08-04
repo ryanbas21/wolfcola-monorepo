@@ -1,0 +1,3 @@
+{
+	"extends": ["@wolfcola/typescript-config/tsconfig.spec"]
+}

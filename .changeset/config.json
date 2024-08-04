@@ -1,8 +1,17 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.2/schema.json",
-  "changelog": ["@changesets/changelog-github", { "repo": "ryanbas21/wolfcola-monorepo" }],
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "ryanbas21/wolfcola-monorepo"
+    }
+  ],
   "commit": false,
-  "fixed": [["@wolfcola/*"]],
+  "fixed": [
+    [
+      "@wolfcola/*"
+    ]
+  ],
   "linked": [],
   "access": "public",
   "baseBranch": "main",
