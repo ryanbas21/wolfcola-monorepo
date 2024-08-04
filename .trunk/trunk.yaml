@@ -28,6 +28,7 @@ lint:
     - linters: [markdownlint]
       paths:
         - packages/**/docs/**
+        - packages/**/CHANGELOG.md
         - .changeset/*.md
 
     - linters: [biome]

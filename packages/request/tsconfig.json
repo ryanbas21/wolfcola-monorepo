@@ -1,10 +1,15 @@
 {
-  "extends": ["@wolfcola/typescript-config/tsconfig"],
+  "extends": [
+    "@wolfcola/typescript-config/web"
+  ],
   "compilerOptions": {
-    "outDir": "./dist",
-    "module": "Node16",
-    "moduleResolution": "Node16",
-    "target": "ES2020",
-    "lib": ["ES2020", "DOM"],
-  }
+    "moduleResolution": "NodeNext"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
 }

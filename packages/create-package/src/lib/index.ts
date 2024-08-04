@@ -82,6 +82,7 @@ async function createPackage() {
 		await fs.dirAsync(path.join(process.cwd(), "etc/"));
 		await fs.dirAsync(path.join(process.cwd(), "docs/"));
 
+		await fs.copyAsync("../../LICENSE", rootDir);
 		execSync("pnpm install", { cwd: path.join(process.cwd(), rootDir) });
 	} catch (err) {
 		console.error("it throws", err);

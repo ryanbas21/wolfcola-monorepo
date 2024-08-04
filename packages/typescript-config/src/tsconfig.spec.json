@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "${configDir}/dist",
     "module": "ES2020",
     "moduleResolution": "NodeNext",
     "target": "ES2020",
@@ -10,20 +10,12 @@
       "vite/client",
       "node",
       "vitest"
-    ],
-    "lib": ["ES2020", "DOM"]
+    ]
   },
-  "include": [
-    "vite.config.ts",
-    "vitest.config.ts",
-    "src/**/*.test.ts",
-    "src/**/*.spec.ts",
-    "src/**/*.test.tsx",
-    "src/**/*.spec.tsx",
-    "src/**/*.test.js",
-    "src/**/*.spec.js",
-    "src/**/*.test.jsx",
-    "src/**/*.spec.jsx",
-    "src/**/*.d.ts"
+  "includes": [
+    "${configDir}/src/**/*.test.ts",
+    "${configDir}/src/**/*.test.tsx",
+    "${configDir}/src/**/*.spec.ts",
+    "${configDir}/src/**/*.spec.tsx"
   ]
 }
