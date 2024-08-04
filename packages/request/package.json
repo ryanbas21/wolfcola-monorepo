@@ -2,14 +2,16 @@
 	"name": "@wolfcola/request",
 	"version": "0.0.4",
 	"description": "a simple effect request package",
+	"keywords": [],
+	"license": "MIT",
+	"author": "ryanbas",
 	"type": "module",
+	"exports": "./dist/index.js",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"exports": "./dist/index.js",
-	"publishConfig": {
-		"provenance": true
-	},
-	"files": ["dist/*"],
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"attw": "attw --pack .",
 		"build": "tsc -p ./tsconfig.json",
@@ -20,9 +22,10 @@
 		"test": "vitest",
 		"tsc": "tsc --watch"
 	},
-	"keywords": [],
-	"author": "ryanbas",
-	"license": "MIT",
+	"dependencies": {
+		"@wolfcola/errors": "workspace:*",
+		"effect": "catalog:effect"
+	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "catalog:attw",
 		"@biomejs/biome": "catalog:biome",
@@ -35,8 +38,7 @@
 		"vite-plugin-dts": "catalog:vite",
 		"vitest": "catalog:vite"
 	},
-	"dependencies": {
-		"@wolfcola/errors": "workspace:*",
-		"effect": "catalog:effect"
+	"publishConfig": {
+		"provenance": true
 	}
 }

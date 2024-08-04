@@ -2,16 +2,16 @@
 	"name": "@wolfcola/typescript-config",
 	"version": "0.0.4",
 	"description": "a shareable ts config",
-	"publishConfig": {
-		"provenance": true
-	},
+	"license": "MIT",
+	"author": "ryan bas",
 	"exports": {
 		"./tsconfig": "./src/tsconfig.json",
 		"./tsconfig.spec": "./src/tsconfig.spec.json"
 	},
-	"author": "ryan bas",
-	"license": "MIT",
 	"devDependencies": {
 		"typescript": "catalog:typescript"
+	},
+	"publishConfig": {
+		"provenance": true
 	}
 }

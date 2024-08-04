@@ -1,24 +1,24 @@
 {
 	"name": "@wolfcola/errors",
-	"private": false,
 	"version": "0.0.4",
+	"private": false,
 	"type": "module",
+	"exports": "./dist/src/index.js",
 	"main": "./dist/src/index.js",
 	"module": "./dist/src/index.js",
-	"exports": "./dist/src/index.js",
-	"publishConfig": {
-		"provenance": true
-	},
-	"files": ["dist/*"],
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"attw": "attw --pack .",
+		"build": "tsc -p ./tsconfig.json",
 		"dev": "vite",
 		"docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
 		"lint": "pnpm biome lint",
-		"build": "tsc -p ./tsconfig.json",
 		"preview": "vite preview",
 		"test": "vitest"
 	},
+	"dependencies": {},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "catalog:attw",
 		"@biomejs/biome": "catalog:biome",
@@ -28,9 +28,11 @@
 		"@wolfcola/biome-config": "workspace:*",
 		"@wolfcola/typescript-config": "workspace:*",
 		"typescript": "catalog:typescript",
-		"vite-plugin-dts": "catalog:vite",
 		"vite": "catalog:vite",
+		"vite-plugin-dts": "catalog:vite",
 		"vitest": "catalog:vite"
 	},
-	"dependencies": {}
+	"publishConfig": {
+		"provenance": true
+	}
 }
