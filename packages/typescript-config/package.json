@@ -2,6 +2,11 @@
   "name": "@wolfcola/typescript-config",
   "version": "0.0.5",
   "description": "a shareable ts config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanbas21/wolfcola-monorepo.git",
+    "directory": "packages/typescript-config"
+  },
   "license": "MIT",
   "author": "ryan bas",
   "exports": {

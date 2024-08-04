@@ -7,6 +7,11 @@
     "create",
     "package"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanbas21/wolfcola-monorepo.git",
+    "directory": "packages/create-package"
+  },
   "license": "MIT",
   "author": "ryan bas",
   "type": "module",

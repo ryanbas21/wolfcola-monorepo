@@ -1,14 +1,19 @@
 {
-	"name": "@wolfcola/biome-config",
-	"version": "0.0.5",
-	"description": "a biome config for the repo",
-	"license": "MIT",
-	"author": "ryanbas",
-	"type": "module",
-	"exports": {
-		"./biome": "./src/biome.json"
-	},
-	"publishConfig": {
-		"provenance": true
-	}
+  "name": "@wolfcola/biome-config",
+  "version": "0.0.5",
+  "description": "a biome config for the repo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanbas21/wolfcola-monorepo.git",
+    "directory": "packages/biome-config"
+  },
+  "license": "MIT",
+  "author": "ryanbas",
+  "type": "module",
+  "exports": {
+    "./biome": "./src/biome.json"
+  },
+  "publishConfig": {
+    "provenance": true
+  }
 }
