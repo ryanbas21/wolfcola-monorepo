@@ -12,10 +12,12 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
+
     - name: Install pnpm
       uses: pnpm/action-setup@v4
       with:
         version: 9
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
@@ -29,3 +31,18 @@ jobs:
 
     - name: Unit Test Packages
       run: pnpm test
+
+    # setup node for verdaccio now
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        registry-url: 'http://localhost:4873'
+        cache: 'pnpm'
+
+
+    - name: publish to verdaccio
+      uses: ./.github/actions/verdacio-publish.yml
+      env:
+        PR_NUMBER: ${{ github.event.number }}
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

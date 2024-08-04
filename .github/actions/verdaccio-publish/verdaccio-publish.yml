@@ -1,0 +1,12 @@
+name: 'PNPM Changesets Publish to Verdaccio'
+description: 'publish a monorepo to verdaccio with snapshots'
+author: 'ryanbas21'
+inputs:
+  debug:
+    description: 'npm debug level'
+    default: '-ddd'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.debug }}
