@@ -1,0 +1,15 @@
+storage: ./storage
+auth:
+  htpasswd:
+    file: ./htpasswd
+
+uplinks:
+packages:
+  '@*/*':
+    access: $all
+    publish: $all
+middlewares:
+  audit:
+    enabled: true
+logs:
+ - {type: stdout, format: pretty, level: trace}

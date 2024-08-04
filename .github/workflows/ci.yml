@@ -22,7 +22,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
+        cache: pnpm
     - name: Install dependencies
       run: pnpm install
 
@@ -37,12 +37,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        registry-url: 'http://localhost:4873'
-        cache: 'pnpm'
-
+        registry-url: http://localhost:4873
+        cache: pnpm
 
     - name: publish to verdaccio
-      uses: ./.github/actions/verdacio-publish.yml
+      uses: ./.github/actions/verdaccio-publish
       env:
         PR_NUMBER: ${{ github.event.number }}
         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
