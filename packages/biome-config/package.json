@@ -13,6 +13,9 @@
   "exports": {
     "./biome": "./src/biome.json"
   },
+  "scripts": {
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local"
+  },
   "publishConfig": {
     "provenance": true
   }
