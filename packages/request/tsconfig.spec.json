@@ -1,3 +1,10 @@
 {
-  "extends": ["@wolfcola/typescript-config/tsconfig.spec"]
+  "extends": [
+    "@wolfcola/typescript-config/spec"
+  ],
+  "include": [
+    "vitest.config.ts",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
 }
