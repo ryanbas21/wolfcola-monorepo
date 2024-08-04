@@ -1,5 +1,14 @@
 # @wolfcola/request
 
+## 0.0.6
+
+### Patch Changes
+
+- [#68](https://github.com/ryanbas21/wolfcola-monorepo/pull/68) [`9007d14`](https://github.com/ryanbas21/wolfcola-monorepo/commit/9007d140087d9337d5fc47c4990ea917c472cf5e) Thanks [@ryanbas21](https://github.com/ryanbas21)! - all packages failed because provenance was not correct, bumping version
+
+- Updated dependencies [[`9007d14`](https://github.com/ryanbas21/wolfcola-monorepo/commit/9007d140087d9337d5fc47c4990ea917c472cf5e)]:
+  - @wolfcola/errors@0.0.6
+
 ## 0.0.5
 
 ### Patch Changes
