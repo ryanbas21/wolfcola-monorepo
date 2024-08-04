@@ -4,6 +4,10 @@ import process from "node:process";
 import fs from "fs-jetpack";
 import * as path from "node:path";
 import { execSync } from "node:child_process";
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 type Questions = (typeof questions)[number]["name"];
 
@@ -89,7 +93,7 @@ async function createPackage() {
 		await fs.dirAsync(path.join(process.cwd(), "etc/"));
 		await fs.dirAsync(path.join(process.cwd(), "docs/"));
 
-		await fs.copyAsync("../../LICENSE", rootDir);
+		await fs.copyAsync(path.resolve(__dirname, "../../LICENSE"), rootDir);
 		execSync("pnpm install", { cwd: path.join(process.cwd(), rootDir) });
 	} catch (err) {
 		console.error("it throws", err);
