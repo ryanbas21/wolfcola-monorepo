@@ -1,5 +1,11 @@
 # @wolfcola/create-package
 
+## 0.0.8
+
+### Patch Changes
+
+- [#80](https://github.com/ryanbas21/wolfcola-monorepo/pull/80) [`52edd5d`](https://github.com/ryanbas21/wolfcola-monorepo/commit/52edd5de885888ccbb3010323a27ce6c2fbf7811) Thanks [@ryanbas21](https://github.com/ryanbas21)! - use path.resolve and dirname to get the correct path of script
+
 ## 0.0.7
 
 ### Patch Changes
