@@ -1,5 +1,11 @@
 # @wolfcola/biome-config
 
+## 0.0.5
+
+### Patch Changes
+
+- [#59](https://github.com/ryanbas21/wolfcola-monorepo/pull/59) [`3383db3`](https://github.com/ryanbas21/wolfcola-monorepo/commit/3383db378a617c6bf8de5a5fe374eee1cd2852c0) Thanks [@ryanbas21](https://github.com/ryanbas21)! - add only changed to biome config
+
 ## 0.0.4
 
 ## 0.0.3

@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/typescript-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a shareable ts config",
   "license": "MIT",
   "author": "ryan bas",
