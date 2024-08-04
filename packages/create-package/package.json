@@ -32,7 +32,7 @@
     "lint": "pnpm biome lint",
     "preview": "vite preview",
     "prepublish": "pnpm build",
-    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local",
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
     "test": "vitest",
     "tsc": "tsc --watch"
   },

@@ -14,7 +14,7 @@
     "./biome": "./src/biome.json"
   },
   "scripts": {
-    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local"
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks"
   },
   "publishConfig": {
     "provenance": true

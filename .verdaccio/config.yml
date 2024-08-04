@@ -2,6 +2,11 @@ storage: ./storage
 auth:
   htpasswd:
     file: ./htpasswd
+web:
+  enable: true
+  title: Wolfcola
+  logo: logo.png
+  scope:
 uplinks:
   npmjs:
     url: https://registry.npmjs.org/
@@ -12,5 +17,4 @@ packages:
     proxy: npmjs
   '**':
     proxy: npmjs
-
 log: { type: stdout, format: pretty, level: http }
