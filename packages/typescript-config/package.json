@@ -1,17 +1,18 @@
 {
-	"name": "@wolfcola/typescript-config",
-	"version": "0.0.4",
-	"description": "a shareable ts config",
-	"license": "MIT",
-	"author": "ryan bas",
-	"exports": {
-		"./tsconfig": "./src/tsconfig.json",
-		"./tsconfig.spec": "./src/tsconfig.spec.json"
-	},
-	"devDependencies": {
-		"typescript": "catalog:typescript"
-	},
-	"publishConfig": {
-		"provenance": true
-	}
+  "name": "@wolfcola/typescript-config",
+  "version": "0.0.4",
+  "description": "a shareable ts config",
+  "license": "MIT",
+  "author": "ryan bas",
+  "exports": {
+    "./node": "./src/tsconfig.node.json",
+    "./spec": "./src/tsconfig.spec.json",
+    "./web": "./src/tsconfig.web.json"
+  },
+  "peerDependencies": {
+    "typescript": "catalog:typescript"
+  },
+  "publishConfig": {
+    "provenance": true
+  }
 }

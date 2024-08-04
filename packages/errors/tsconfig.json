@@ -1,15 +1,15 @@
 {
-  "extends": ["@wolfcola/typescript-config/tsconfig"],
+  "extends": [
+    "@wolfcola/typescript-config/web"
+  ],
   "compilerOptions": {
-    "outDir": "./dist",
-    "target": "ES2020",
-    "module": "Node16",
-    "moduleResolution": "Node16",
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "moduleResolution": "Node16"
   },
-  "include": ["src"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
 }
