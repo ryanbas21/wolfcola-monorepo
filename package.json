@@ -8,15 +8,15 @@
   "license": "MIT",
   "author": "ryan bas",
   "scripts": {
-    "attw": "pnpm run -r attw",
-    "build": "pnpm run -r build",
+    "attw": "pnpm turbo attw",
+    "build": "pnpm turbo build",
     "changeset": "changeset",
     "docs": "pnpm run -r docs",
     "format": "trunk fmt",
     "lint": "trunk check",
     "release": "pnpm build && changeset publish",
     "release-verdaccio": "node ./scripts/release-local.mjs",
-    "test": "pnpm run -r test"
+    "test": "pnpm turbo test"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
@@ -24,12 +24,11 @@
     "@microsoft/api-documenter": "catalog:api-extractor",
     "@microsoft/api-extractor": "catalog:api-extractor",
     "@trunkio/launcher": "^1.3.1",
-    "create-package": "^1.1.0",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.16.5",
+    "turbo": "^2.0.11",
     "typescript": "catalog:typescript",
     "verdaccio": "^5.32.1"
   },
+  "packageManager": "pnpm@9.6.0",
   "engines": {
     "node": ">=18.16.1",
     "npm": "forbidden use pnpm",

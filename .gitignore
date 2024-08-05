@@ -4,3 +4,5 @@ dist
 .pnpm-store/*
 **/**/temp
 **/**/etc
+.turbo
+.nx

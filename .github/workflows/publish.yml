@@ -16,6 +16,11 @@ jobs:
 
     timeout-minutes: 15
     runs-on: ubuntu-latest
+    env:
+       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+       TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+       TURBO_REMOTE_ONLY: true
+
     steps:
       - name: checkout code repository
         uses: actions/checkout@v3
