@@ -4,3 +4,8 @@ dist
 .pnpm-store/*
 **/**/temp
 **/**/etc
+
+
+
+.nx/cache
+.nx/workspace-data

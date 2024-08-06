@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "attw": "attw --pack .",
-    "build": "tsc -p ./tsconfig.json",
+    "build": "tsc -p ./tsconfig.lib.json",
     "dev": "vite",
     "docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
     "lint": "pnpm biome lint",
