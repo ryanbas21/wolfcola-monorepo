@@ -18,6 +18,7 @@ export default defineConfig({
 		typecheck: {
 			tsconfig: "./tsconfig.spec.json",
 		},
+		watch: false,
 	},
 	plugins: [dts({ rollupTypes: true })],
 });
