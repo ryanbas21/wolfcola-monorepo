@@ -45,6 +45,7 @@
     "@biomejs/biome": "catalog:biome",
     "@effect/vitest": "catalog:effect",
     "@types/node": "catalog:typescript",
+    "@vitest/coverage-v8": "catalog:vite",
     "@wolfcola/biome-config": "workspace:*",
     "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",

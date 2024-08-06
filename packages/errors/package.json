@@ -33,6 +33,7 @@
     "@effect/vitest": "catalog:effect",
     "@microsoft/api-extractor": "catalog:api-extractor",
     "@types/node": "catalog:typescript",
+    "@vitest/coverage-v8": "catalog:vite",
     "@wolfcola/biome-config": "workspace:*",
     "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",

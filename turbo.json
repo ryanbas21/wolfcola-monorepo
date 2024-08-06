@@ -6,7 +6,14 @@
 	},
 	"tasks": {
 		"build": {
-			"outputs": ["dist/**"]
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"],
+			"cache": true
+		},
+		"test": {
+			"dependsOn": ["^test"],
+			"outputs": ["coverage/**"],
+			"cache": true
 		},
 		"attw": {
 			"outputs": []
