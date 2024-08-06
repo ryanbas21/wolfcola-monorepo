@@ -31,6 +31,7 @@
 			}
 		}
 	],
+<<<<<<< HEAD
 	"nxCloudAccessToken": "MWQ0MThmMzYtZGUyYi00NDRmLWIxN2ItYjNiOWE1YmE3NTMwfHJlYWQtd3JpdGU=",
 	"namedInputs": {
 		"sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
@@ -45,5 +46,9 @@
 		"options": {
 			"packageRoot": "{workspaceRoot}/packages/{projectName}/dist"
 		}
+=======
+	"namedInputs": {
+		"sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+>>>>>>> 9b4343e (init nx)
 	}
 }
