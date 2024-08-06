@@ -2,20 +2,32 @@
 	"$schema": "./node_modules/nx/schemas/nx-schema.json",
 	"targetDefaults": {
 		"test": {
-			"dependsOn": ["^test"],
-			"outputs": ["{projectRoot}/coverage"],
+			"dependsOn": [
+				"^test"
+			],
+			"outputs": [
+				"{projectRoot}/coverage"
+			],
 			"cache": true
 		},
 		"build": {
-			"dependsOn": ["^build"],
-			"outputs": ["{projectRoot}/dist"],
+			"dependsOn": [
+				"^build"
+			],
+			"outputs": [
+				"{projectRoot}/dist"
+			],
 			"cache": true
 		},
 		"dev": {
-			"dependsOn": ["^dev"]
+			"dependsOn": [
+				"^dev"
+			]
 		},
 		"preview": {
-			"dependsOn": ["^preview"]
+			"dependsOn": [
+				"^preview"
+			]
 		}
 	},
 	"defaultBase": "main",
@@ -32,6 +44,9 @@
 		}
 	],
 	"namedInputs": {
-		"sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
-	}
+		"sharedGlobals": [
+			"{workspaceRoot}/.github/workflows/ci.yml"
+		]
+	},
+	"nxCloudAccessToken": "MWQ0MThmMzYtZGUyYi00NDRmLWIxN2ItYjNiOWE1YmE3NTMwfHJlYWQtd3JpdGU="
 }
