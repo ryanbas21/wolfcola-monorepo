@@ -30,7 +30,7 @@
       ]
     }
   },
-  "defaultBase": "main",
+  "defaultBase": "develop",
   "plugins": [
     {
       "plugin": "@nx/vite/plugin",
