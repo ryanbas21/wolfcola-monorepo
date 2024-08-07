@@ -8,4 +8,3 @@ dist
 .nx/cache
 .nx/workspace-data
 **/coverage/*
-.verdaccio/*
