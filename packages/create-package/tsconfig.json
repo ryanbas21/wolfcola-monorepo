@@ -1,10 +1,10 @@
 {
-  "extends": [
-    "@wolfcola/typescript-config/node"
-  ],
-  "compilerOptions": {
-    "outDir": "./dist",
-    "moduleResolution": "Node16",
-    "strict": false
-  }
+  "references": [
+    {
+      "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    }
+  ]
 }

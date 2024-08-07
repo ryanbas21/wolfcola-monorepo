@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "@wolfcola/typescript-config/web"
+  ],
+  "compilerOptions": {
+    "composite": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "vite.config.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "vite.config.ts"
+  ]
+}

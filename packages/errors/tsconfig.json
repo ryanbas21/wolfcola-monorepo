@@ -1,15 +1,11 @@
 {
-  "extends": [
-    "@wolfcola/typescript-config/web"
-  ],
-  "compilerOptions": {
-    "moduleResolution": "Node16"
-  },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "**/*.spec.ts",
-    "**/*.test.ts"
+  "compilerOptions": {},
+  "references": [
+    {
+      "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    }
   ]
 }
