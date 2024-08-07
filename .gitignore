@@ -10,4 +10,3 @@ dist
 .nx/workspace-data
 .turbo
 **/coverage/*
-.verdaccio/*
