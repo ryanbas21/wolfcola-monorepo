@@ -24,6 +24,8 @@
     "docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
     "lint": "pnpm biome lint",
     "preview": "vite preview",
+    "prepublish": "pnpm build",
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
     "test": "vitest",
     "tsc": "tsc --watch"
   },
@@ -36,14 +38,12 @@
     "@biomejs/biome": "catalog:biome",
     "@effect/vitest": "catalog:effect",
     "@types/node": "catalog:typescript",
+    "@vitest/coverage-v8": "catalog:vite",
     "@wolfcola/biome-config": "workspace:*",
     "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
     "vitest": "catalog:vite"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

@@ -1,0 +1,26 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"remoteCache": {
+		"enabled": true,
+		"signature": false
+	},
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"],
+			"cache": true
+		},
+		"test": {
+			"dependsOn": ["^test"],
+			"outputs": ["coverage/**"],
+			"cache": true
+		},
+		"attw": {
+			"outputs": []
+		},
+		"dev": {
+			"persistent": true,
+			"cache": false
+		}
+	}
+}

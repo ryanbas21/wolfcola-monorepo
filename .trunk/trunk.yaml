@@ -25,6 +25,10 @@ lint:
     - eslint
     - prettier
   ignore:
+    - linters: [checkov]
+      paths:
+        - .verdaccio/**
+
     - linters: [markdownlint]
       paths:
         - packages/**/docs/**
