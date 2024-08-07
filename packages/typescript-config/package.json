@@ -19,8 +19,5 @@
   },
   "peerDependencies": {
     "typescript": "catalog:typescript"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }
