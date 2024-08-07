@@ -12,11 +12,14 @@
   "type": "module",
   "exports": {
     "./biome": "./src/biome.json"
+<<<<<<< HEAD
   },
   "scripts": {
     "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks"
   },
   "publishConfig": {
     "provenance": true
+=======
+>>>>>>> 81c6392 (remove provenance from package.json and add it as env in CI)
   }
 }
