@@ -34,5 +34,16 @@
 	"nxCloudAccessToken": "MWQ0MThmMzYtZGUyYi00NDRmLWIxN2ItYjNiOWE1YmE3NTMwfHJlYWQtd3JpdGU=",
 	"namedInputs": {
 		"sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
+	},
+	"release": {
+		"projects": ["packages/*"],
+		"version": {
+			"preVersionCommand": "pnpm build"
+		}
+	},
+	"nx-release-publish": {
+		"options": {
+			"packageRoot": "{workspaceRoot}/packages/{projectName}/dist"
+		}
 	}
 }

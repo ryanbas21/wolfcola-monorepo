@@ -4,7 +4,7 @@ dist
 .pnpm-store/*
 **/**/temp
 **/**/etc
-.verdaccio/*
+.verdaccio/storage/*
 
 
 

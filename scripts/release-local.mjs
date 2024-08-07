@@ -1,17 +1,22 @@
 import { runServer } from "verdaccio";
-import { execSync } from "node:child_process";
-import process from "node:process";
+import { releasePublish, releaseVersion } from "nx/release/index.js";
 
-runServer(".verdaccio/config.yml").then((app) => {
-	app.listen(4873, (event) => {
-		console.log(event);
-		console.log("running on port 4873");
-		try {
-			execSync("pnpm release-verdaccio --filter packages/*", {
-				cwd: process.cwd(),
-			});
-		} catch (err) {
-			console.error(err);
-		}
+const app = await runServer(".verdaccio/config.yml");
+
+app.listen(4873, async () => {
+	await releaseVersion({
+		gitTag: false,
+		gitCommit: false,
+		stageChanges: false,
+		preid: "local",
+		specifier: "prerelease",
+	});
+
+	return await releasePublish({
+		tag: "local",
+		registry: "http://localhost:4873",
+		generatorOptionsOverrides: {
+			skipLockFileUpdate: true,
+		},
 	});
 });
