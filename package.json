@@ -15,7 +15,8 @@
     "format": "trunk fmt",
     "lint": "trunk check",
     "release": "pnpm build && changeset publish",
-    "test": "nx affected:test"
+    "test": "nx affected:test",
+    "verdaccio": "verdaccio -c ./.verdaccio/config.yml"
   },
   "dependencies": {},
   "devDependencies": {

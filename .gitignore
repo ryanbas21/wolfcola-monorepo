@@ -5,8 +5,7 @@ dist
 **/**/temp
 **/**/etc
 .verdaccio/storage/*
+<<<<<<< HEAD
 .nx/cache
 .nx/workspace-data
 **/coverage/*
-.nx/cache
-.nx/workspace-data
