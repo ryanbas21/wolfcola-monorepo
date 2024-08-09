@@ -25,6 +25,9 @@ lint:
     - eslint
     - prettier
   ignore:
+    - linters: [checkov]
+      paths:
+        - nx.json
     - linters: [markdownlint]
       paths:
         - packages/**/docs/**

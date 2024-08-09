@@ -1,21 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "${configDir}/dist",
-    "module": "ES2020",
+    "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "target": "ES2020",
-    "types": [
-      "vitest/globals",
-      "vitest/importMeta",
-      "vite/client",
-      "node",
-      "vitest"
-    ]
-  },
-  "includes": [
-    "${configDir}/src/**/*.test.ts",
-    "${configDir}/src/**/*.test.tsx",
-    "${configDir}/src/**/*.spec.ts",
-    "${configDir}/src/**/*.spec.tsx"
-  ]
+    "target": "NodeNext",
+    "skipLibCheck": true
+  }
 }
