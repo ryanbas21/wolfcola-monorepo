@@ -1,5 +1,14 @@
 # @wolfcola/request
 
+## 0.0.12
+
+### Patch Changes
+
+- [#117](https://github.com/ryanbas21/wolfcola-monorepo/pull/117) [`1e747ba`](https://github.com/ryanbas21/wolfcola-monorepo/commit/1e747baea558b58ea33a4e70494e09aae1dbf962) Thanks [@ryanbas21](https://github.com/ryanbas21)! - fix error in publish i messed up
+
+- Updated dependencies []:
+  - @wolfcola/errors@0.0.12
+
 ## 0.0.11
 
 ### Patch Changes
