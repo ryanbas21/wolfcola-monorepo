@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/create-package",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "create an npm package in a pnpm workspace",
   "keywords": [
     "pnpm",

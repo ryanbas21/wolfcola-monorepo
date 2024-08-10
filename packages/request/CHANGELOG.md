@@ -1,5 +1,16 @@
 # @wolfcola/request
 
+## 0.0.10
+
+### Patch Changes
+
+- [`603bd2d`](https://github.com/ryanbas21/wolfcola-monorepo/commit/603bd2d14b608bbe67307f89f7ca94470e3c4628) Thanks [@ryanbas21](https://github.com/ryanbas21)! - update ci build and add cloud token
+
+- [`2a84d72`](https://github.com/ryanbas21/wolfcola-monorepo/commit/2a84d727d34ee09b2dc3e680a8b63da1d9bd0c1f) Thanks [@ryanbas21](https://github.com/ryanbas21)! - initialize with nx fix some configs
+
+- Updated dependencies [[`603bd2d`](https://github.com/ryanbas21/wolfcola-monorepo/commit/603bd2d14b608bbe67307f89f7ca94470e3c4628), [`2a84d72`](https://github.com/ryanbas21/wolfcola-monorepo/commit/2a84d727d34ee09b2dc3e680a8b63da1d9bd0c1f)]:
+  - @wolfcola/errors@0.0.10
+
 ## 0.0.9
 
 ### Patch Changes
