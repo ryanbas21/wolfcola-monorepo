@@ -1,5 +1,14 @@
 # @wolfcola/request
 
+## 0.0.14
+
+### Patch Changes
+
+- [#121](https://github.com/ryanbas21/wolfcola-monorepo/pull/121) [`334f3f0`](https://github.com/ryanbas21/wolfcola-monorepo/commit/334f3f0ca68ec9b8d669b9475fbfd522932161ea) Thanks [@ryanbas21](https://github.com/ryanbas21)! - update ci pushing
+
+- Updated dependencies [[`334f3f0`](https://github.com/ryanbas21/wolfcola-monorepo/commit/334f3f0ca68ec9b8d669b9475fbfd522932161ea)]:
+  - @wolfcola/errors@0.0.14
+
 ## 0.0.13
 
 ### Patch Changes
