@@ -14,7 +14,9 @@
 	"exports": "./dist/index.js",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"files": ["dist/*"],
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"attw": "attw --pack .",
 		"build": "tsc -p ./tsconfig.lib.json",
