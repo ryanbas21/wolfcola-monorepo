@@ -1,6 +1,6 @@
 {
 	"name": "@wolfcola/errors",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"private": false,
 	"repository": {
 		"type": "git",
@@ -11,7 +11,9 @@
 	"exports": "./dist/src/index.js",
 	"main": "./dist/src/index.js",
 	"module": "./dist/src/index.js",
-	"files": ["dist/*"],
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"attw": "attw --pack .",
 		"build": "tsc -p ./tsconfig.lib.json",
