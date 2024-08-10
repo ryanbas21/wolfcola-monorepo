@@ -1,5 +1,11 @@
 # @wolfcola/typescript-config
 
+## 0.0.15
+
+### Patch Changes
+
+- [#123](https://github.com/ryanbas21/wolfcola-monorepo/pull/123) [`82e48e7`](https://github.com/ryanbas21/wolfcola-monorepo/commit/82e48e7b41cea84b10252d9d662624971009593f) Thanks [@ryanbas21](https://github.com/ryanbas21)! - no dist was published because we didnt build in publish ci
+
 ## 0.0.14
 
 ### Patch Changes
