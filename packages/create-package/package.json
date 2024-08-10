@@ -31,7 +31,6 @@
     "docs": "api-extractor run --local --diagnostics && api-documenter markdown --input-folder temp --output-folder docs",
     "lint": "pnpm biome lint ./",
     "preview": "vite preview",
-    "prepublish": "pnpm build",
     "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
     "test": "vitest",
     "tsc": "tsc --watch"
