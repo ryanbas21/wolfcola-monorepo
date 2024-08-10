@@ -1,5 +1,11 @@
 # @wolfcola/errors
 
+## 0.0.9
+
+### Patch Changes
+
+- [#94](https://github.com/ryanbas21/wolfcola-monorepo/pull/94) [`51358dd`](https://github.com/ryanbas21/wolfcola-monorepo/commit/51358dd3166d2bfa707c1e2655da24d76a9e7f1c) Thanks [@ryanbas21](https://github.com/ryanbas21)! - initialize with nx fix some configs
+
 ## 0.0.8
 
 ## 0.0.7

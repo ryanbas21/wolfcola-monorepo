@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - develop
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
@@ -38,5 +39,7 @@ jobs:
         with:
           publish: pnpm release
           title: Release PR
+          branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
