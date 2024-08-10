@@ -55,6 +55,4 @@ I love `pnpm` catalogs and the `pnpm` `workspace:*` feature. this makes dependen
 
 
 ## Tools I am evaluating still
-`trunk` is a tool I am still learning and evaluating.  
-
 `biome` instead of prettier/eslint is also being tested out.
