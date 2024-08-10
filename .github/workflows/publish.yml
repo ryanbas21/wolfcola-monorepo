@@ -44,3 +44,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
+
+      - name: rebase develop with main on publish
+        if: steps.changesets.outputs.published == 'true'
+        run: |
+          git checkout main
+          git fetch --all
+          git pull origin main
+
+          git checkout develop
+          git rebase main
+          git push -f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
