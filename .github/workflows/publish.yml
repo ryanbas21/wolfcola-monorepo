@@ -55,6 +55,7 @@ jobs:
 
       - name: publish
         uses: changesets/action@v1
+        id: changesets
         with:
           publish: pnpm release
           title: Release PR
