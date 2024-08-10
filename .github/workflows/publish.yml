@@ -46,7 +46,7 @@ jobs:
           NPM_CONFIG_PROVENANCE: true
 
       - name: rebase develop with main on publish
-        if: steps.changesets.outputs.published == 'true'
+        if: ${{ steps.changesets.outputs.published == 'true' }}
         run: |
           git checkout main
           git fetch --all
