@@ -2,12 +2,6 @@ name: ci
 
 on:
   push:
-    branches:
-      - changeset-release/*
-  pull_request:
-    types:
-      - opened 
-      - synchronize
 
 permissions:
   actions: read
