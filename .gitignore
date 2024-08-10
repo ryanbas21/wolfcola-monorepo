@@ -6,8 +6,6 @@ dist
 **/**/etc
 .verdaccio/storage/*
 
-
-
 .nx/cache
 .nx/workspace-data
 .turbo
