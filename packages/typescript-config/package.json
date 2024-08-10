@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/typescript-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a shareable ts config",
   "repository": {
     "type": "git",
@@ -14,10 +14,10 @@
     "./spec": "./src/tsconfig.spec.json",
     "./web": "./src/tsconfig.web.json"
   },
+  "scripts": {
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks"
+  },
   "peerDependencies": {
     "typescript": "catalog:typescript"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

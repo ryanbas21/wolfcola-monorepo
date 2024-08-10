@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/biome-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a biome config for the repo",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "exports": {
     "./biome": "./src/biome.json"
   },
-  "publishConfig": {
-    "provenance": true
+  "scripts": {
+    "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks"
   }
 }
