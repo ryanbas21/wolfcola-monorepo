@@ -53,8 +53,6 @@ jobs:
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
-
-
       - name: publish
         uses: changesets/action@v1
         with:
