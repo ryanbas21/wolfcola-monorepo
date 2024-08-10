@@ -13,7 +13,7 @@
     "changeset": "changeset",
     "docs": "pnpm run -r docs",
     "lint": "pnpm nx affected -t lint",
-    "release": "pnpm build && changeset publish",
+    "release": "changeset publish",
     "test": "nx affected:test",
     "verdaccio": "verdaccio -c ./.verdaccio/config.yml"
   },
