@@ -1,6 +1,9 @@
 name: ci
 
 on:
+  push:
+    branches:
+      - changesets/*
   pull_request:
     types:
       - opened 
