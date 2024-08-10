@@ -1,5 +1,11 @@
 # @wolfcola/biome-config
 
+## 0.0.13
+
+### Patch Changes
+
+- [#119](https://github.com/ryanbas21/wolfcola-monorepo/pull/119) [`8fc2007`](https://github.com/ryanbas21/wolfcola-monorepo/commit/8fc20070b9053ddc8b0f1838c260531bbd7d3a90) Thanks [@ryanbas21](https://github.com/ryanbas21)! - update ci one last time and this causes a publish to effectively ensure everything publishes appropriately.
+
 ## 0.0.12
 
 ## 0.0.11

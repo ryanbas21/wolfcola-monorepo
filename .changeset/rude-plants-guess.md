@@ -6,4 +6,4 @@
 "@wolfcola/typescript-config": patch
 ---
 
-update ci one last time and this causes a publish to effectively ensure everything publishes appropriately.
+update ci pushing
