@@ -1,5 +1,11 @@
 # @wolfcola/create-package
 
+## 0.0.11
+
+### Patch Changes
+
+- [#115](https://github.com/ryanbas21/wolfcola-monorepo/pull/115) [`1fa0f2a`](https://github.com/ryanbas21/wolfcola-monorepo/commit/1fa0f2a26c748dcdb0428be1917b5e8419b40785) Thanks [@ryanbas21](https://github.com/ryanbas21)! - remove prebuild step
+
 ## 0.0.10
 
 ### Patch Changes

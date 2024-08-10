@@ -1,6 +1,6 @@
 {
 	"name": "@wolfcola/request",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "a simple effect request package",
 	"keywords": [],
 	"repository": {
@@ -14,7 +14,9 @@
 	"exports": "./dist/index.js",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
-	"files": ["dist/*"],
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"attw": "attw --pack .",
 		"build": "tsc -p ./tsconfig.lib.json",
