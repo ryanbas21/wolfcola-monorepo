@@ -56,4 +56,4 @@ jobs:
           git rebase main
           git push -f
         env:
-          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
