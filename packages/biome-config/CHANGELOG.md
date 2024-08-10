@@ -1,5 +1,11 @@
 # @wolfcola/biome-config
 
+## 0.0.16
+
+### Patch Changes
+
+- [#125](https://github.com/ryanbas21/wolfcola-monorepo/pull/125) [`3e01cc7`](https://github.com/ryanbas21/wolfcola-monorepo/commit/3e01cc76e4f7b3cb76f0256036b05215444fa9de) Thanks [@ryanbas21](https://github.com/ryanbas21)! - sign-commits-for-tags-commits
+
 ## 0.0.15
 
 ### Patch Changes
