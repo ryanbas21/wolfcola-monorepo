@@ -4,21 +4,25 @@ import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
-	root: "./",
-
-	build: {
-		lib: {
-			entry: "./src/index.ts",
-			fileName: "index",
-			formats: ["es"],
-		},
-		outDir: "./dist",
-	},
-	test: {
-		typecheck: {
-			tsconfig: "./tsconfig.spec.json",
-		},
-		watch: false,
-	},
-	plugins: [dts({ rollupTypes: true })],
+  root: "./",
+  build: {
+    lib: {
+      entry: "./src/index.ts",
+      fileName: "index",
+      formats: ["es"],
+    },
+    outDir: "./dist",
+  },
+  test: {
+    typecheck: {
+      tsconfig: "./tsconfig.spec.json",
+    },
+    watch: false,
+    coverage: {
+      provider: "v8",
+      include: ["./src/*.ts"],
+      enabled: !!process.env.CI,
+    },
+  },
+  plugins: [dts({ rollupTypes: true })],
 });

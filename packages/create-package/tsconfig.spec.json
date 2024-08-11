@@ -3,7 +3,7 @@
     "@wolfcola/typescript-config/spec"
   ],
   "compilerOptions": {
-    "composite": true
+    "composite": true,
   },
   "include": [
     "vitest.config.ts",
