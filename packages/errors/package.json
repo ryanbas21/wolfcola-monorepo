@@ -24,13 +24,13 @@
     "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
     "test": "vitest"
   },
-  "dependencies": {},
   "devDependencies": {
     "@arethetypeswrong/cli": "catalog:attw",
     "@biomejs/biome": "catalog:biome",
     "@effect/vitest": "catalog:effect",
     "@microsoft/api-extractor": "catalog:api-extractor",
     "@types/node": "catalog:typescript",
+    "@vitest/coverage-v8": "^2.0.5",
     "@wolfcola/biome-config": "workspace:*",
     "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",
