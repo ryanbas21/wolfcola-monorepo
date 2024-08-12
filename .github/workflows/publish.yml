@@ -96,8 +96,13 @@ jobs:
       - name: publish snapshots if we didn't publish latest
         if: ${{ steps.changesets.outputs.published == 'false' }}
         run: |
-                pnpm changeset --snapshot beta
-                pnpm changeset publish --tag beta --no-git-tag
+                pnpm changeset pre enter beta
+                pnpm changeset version
+                git add .; git commit -m 'chore: Version packages beta'
+                pnpm changeset publish --tag beta
+                pnpm changeset pre exit beta
+                git push --follow-tags
+                
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
