@@ -99,7 +99,7 @@ jobs:
                 pnpm changeset pre enter beta
                 pnpm changeset version
                 git add .; git commit -m 'chore: Version packages beta'
-                pnpm changeset publish --tag beta
+                pnpm changeset publish
                 pnpm changeset pre exit beta
                 git push --follow-tags
                 
