@@ -1,7 +1,7 @@
 name: ci
 
 on:
-  push:
+  pull_request:
 
 permissions:
   actions: read
@@ -37,7 +37,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - uses: nrwl/nx-set-shas@v4
         with:
-          main-branch-name: ${{ github.base_ref }}
+          main-branch-name: ${{ github.event.pull_request.base.ref }}
 
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: pnpm exec nx-cloud record -- echo Hello World
