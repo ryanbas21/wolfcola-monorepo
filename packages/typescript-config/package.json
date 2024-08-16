@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/typescript-config",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "a shareable ts config",
   "repository": {
     "type": "git",
@@ -19,5 +19,6 @@
   },
   "peerDependencies": {
     "typescript": "catalog:typescript"
-  }
+  },
+  "nx": {}
 }
