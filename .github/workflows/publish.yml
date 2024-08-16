@@ -61,7 +61,7 @@ jobs:
 
       - uses: nrwl/nx-set-shas@v4
         with:
-          main-branch-name: ${{ github.ref_name }}
+          main-branch-name: main
 
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
