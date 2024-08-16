@@ -37,5 +37,6 @@
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
     "vitest": "catalog:vite"
-  }
+  },
+  "nx": {}
 }

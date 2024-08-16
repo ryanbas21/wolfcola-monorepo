@@ -19,5 +19,6 @@
   },
   "peerDependencies": {
     "typescript": "catalog:typescript"
-  }
+  },
+  "nx": {}
 }
