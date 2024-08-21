@@ -3,6 +3,7 @@ packages:
   - apps/*
   - libraries/*
   - services/*
+  - extensions/*
 
 catalogs:
   biome:
