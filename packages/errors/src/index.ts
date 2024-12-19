@@ -1,3 +1,5 @@
 // these are exports
-export { FetchError } from "./lib/fetch-error.js";
-export { ParsingResponseJsonError } from "./lib/json-parsing-error.js";
+import { FetchError } from "./lib/fetch-error.js";
+import { ParsingResponseJsonError } from "./lib/json-parsing-error.js";
+
+export { FetchError, ParsingResponseJsonError };

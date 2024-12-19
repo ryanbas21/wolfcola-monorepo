@@ -3,11 +3,12 @@
     "@wolfcola/typescript-config/spec"
   ],
   "compilerOptions": {
-    "composite": true
+    "composite": true,
   },
   "include": [
     "vitest.config.ts",
     "src/**/*.spec.ts",
-    "src/**/*.test.ts"
+    "src/**/*.test.ts",
+    "src/index.ts"
   ]
 }

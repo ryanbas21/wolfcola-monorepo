@@ -1,6 +1,6 @@
 {
   "name": "@wolfcola/errors",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "private": false,
   "repository": {
     "type": "git",
@@ -24,18 +24,19 @@
     "release-local": "pnpm publish --registry=http://localhost:4873 --tag=local --no-git-checks",
     "test": "vitest"
   },
-  "dependencies": {},
   "devDependencies": {
     "@arethetypeswrong/cli": "catalog:attw",
     "@biomejs/biome": "catalog:biome",
     "@effect/vitest": "catalog:effect",
     "@microsoft/api-extractor": "catalog:api-extractor",
     "@types/node": "catalog:typescript",
+    "@vitest/coverage-v8": "^2.0.5",
     "@wolfcola/biome-config": "workspace:*",
     "@wolfcola/typescript-config": "workspace:*",
     "typescript": "catalog:typescript",
     "vite": "catalog:vite",
     "vite-plugin-dts": "catalog:vite",
     "vitest": "catalog:vite"
-  }
+  },
+  "nx": {}
 }

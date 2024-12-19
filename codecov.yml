@@ -1,0 +1,14 @@
+component_management:
+  individual_components:
+    - component_id: "create-package"
+      paths:
+        - "packages/create-package"
+    - component_id: "errors"
+      paths:
+        - "packages/errors"
+    - component_id: "request"
+      paths:
+        - "packages/request"
+
+comment:
+  layout: "header, diff, flags, components"  # show component info in the PR comment
