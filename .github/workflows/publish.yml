@@ -41,6 +41,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
+          registry-url: "https://registry.npmjs.org"
 
       - name: setup pnpm
         uses: pnpm/action-setup@v4
