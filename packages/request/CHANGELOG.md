@@ -1,5 +1,22 @@
 # @wolfcola/request
 
+## 0.0.17
+
+### Patch Changes
+
+- [#130](https://github.com/ryanbas21/wolfcola-monorepo/pull/130) [`9a44402`](https://github.com/ryanbas21/wolfcola-monorepo/commit/9a4440238520a7df53dc995295464ea5b84b2aa9) Thanks [@ryanbas21](https://github.com/ryanbas21)! - publish snapshots on develop merge
+
+- [#135](https://github.com/ryanbas21/wolfcola-monorepo/pull/135) [`3e09099`](https://github.com/ryanbas21/wolfcola-monorepo/commit/3e09099a838b89fe65ef3e31d0d1dc608cbb7c95) Thanks [@ryanbas21](https://github.com/ryanbas21)! - fix action for publish snapshot
+
+- [#136](https://github.com/ryanbas21/wolfcola-monorepo/pull/136) [`4ce71ff`](https://github.com/ryanbas21/wolfcola-monorepo/commit/4ce71ffa89d18fdef14e839310655f3917826853) Thanks [@ryanbas21](https://github.com/ryanbas21)! - fix ci github.ref
+
+- [#138](https://github.com/ryanbas21/wolfcola-monorepo/pull/138) [`dc72017`](https://github.com/ryanbas21/wolfcola-monorepo/commit/dc720172bd6ddce4223a2531710f2ff79f53cb8a) Thanks [@ryanbas21](https://github.com/ryanbas21)! - add a changeset for snapshot publish
+
+- [#132](https://github.com/ryanbas21/wolfcola-monorepo/pull/132) [`bd35869`](https://github.com/ryanbas21/wolfcola-monorepo/commit/bd358694a51db93f71b04d4daf0d8b75aa76530a) Thanks [@ryanbas21](https://github.com/ryanbas21)! - update to beta release on pre
+
+- Updated dependencies [[`9a44402`](https://github.com/ryanbas21/wolfcola-monorepo/commit/9a4440238520a7df53dc995295464ea5b84b2aa9), [`3e09099`](https://github.com/ryanbas21/wolfcola-monorepo/commit/3e09099a838b89fe65ef3e31d0d1dc608cbb7c95), [`4ce71ff`](https://github.com/ryanbas21/wolfcola-monorepo/commit/4ce71ffa89d18fdef14e839310655f3917826853), [`dc72017`](https://github.com/ryanbas21/wolfcola-monorepo/commit/dc720172bd6ddce4223a2531710f2ff79f53cb8a), [`bd35869`](https://github.com/ryanbas21/wolfcola-monorepo/commit/bd358694a51db93f71b04d4daf0d8b75aa76530a)]:
+  - @wolfcola/errors@0.0.17
+
 ## 0.0.16
 
 ### Patch Changes
