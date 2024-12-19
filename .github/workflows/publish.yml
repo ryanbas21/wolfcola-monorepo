@@ -47,9 +47,6 @@ jobs:
         with:
           run_install: false
 
-      - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-
       - name: install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -75,6 +72,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 
       - name: rebase develop with main on publish
         if: ${{ steps.changesets.outputs.published == 'true' }}
